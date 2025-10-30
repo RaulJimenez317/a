@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="wwwroot\images\default-user.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>
