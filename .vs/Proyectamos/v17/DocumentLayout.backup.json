@@ -1,277 +1,277 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\",
+  "WorkspaceRootPath": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\editproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\editproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\project.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\lookforproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\lookforproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\lookforproject.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\lookforproject.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\notifications.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\notifications.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\profile\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanageproyects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageproyects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanageproyects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageproyects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\createproject\\createproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\createproject\\createproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanageuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\adminmanageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\adminmanageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\adminmanageuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\adminmanageuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\loginregister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\loginregister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\adminmanageproyects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\adminmanageproyects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\userhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\userhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\userhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\userhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanagehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanagehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\shared\\_notificationspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_notificationspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\adminhome\\adminmanagehome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanagehome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\loginregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\loginregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\editproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\editproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\project.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\lookforproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\lookforproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\lookforproject.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\lookforproject.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\notifications.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\notifications.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\profile\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanageproyects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageproyects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanageproyects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageproyects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\createproject\\createproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\createproject\\createproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanageuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\adminmanageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\adminmanageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\adminmanageuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\adminmanageuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\loginregister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\loginregister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\adminmanageproyects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\adminmanageproyects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\userhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\userhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\userhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\userhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanagehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanagehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\shared\\_notificationspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_notificationspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\adminhome\\adminmanagehome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\adminhome\\adminmanagehome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\loginregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\loginregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\documentproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\documentproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\documentproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\lookforproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\lookforproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\lookforproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\updatephotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\updatephotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\updatephotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\shared\\_notificationspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\shared\\_notificationspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_notificationspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\addphotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\addphotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\addphotos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\addphotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\addphotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\addphotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\updatephotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\updatephotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\updatephotos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\photoproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\photoproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\photoproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\adddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\adddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\adddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\createproyect.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\createproyect.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\createproyect.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\projects\\adddocuments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\adddocuments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\adddocuments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\adminmanageproyects.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\adminmanageproyects.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\adminmanageproyects.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\integracionproyecto3\\proyectamos\\proyectamos\\proyectamos\\pages\\register\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -282,63 +282,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "profile.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\profile.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\profile.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\profile.css",
-              "RelativeToolTip": "wwwroot\\css\\profile.css",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAPUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-08T02:52:05.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T23:31:02.344Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Project.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\Project.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\Project.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\Project.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
               "RelativeToolTip": "Pages\\Projects\\Project.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAAOQAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T22:40:48.515Z"
+              "WhenOpened": "2025-10-12T22:40:48.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LookForProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\LookForProject.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Projects\\LookForProject.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\LookForProject.cshtml",
-              "RelativeToolTip": "Pages\\Projects\\LookForProject.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T22:47:34.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\appsettings.json",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -347,23 +312,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\EditProject.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\EditProject.cshtml",
-              "RelativeToolTip": "Pages\\Projects\\EditProject.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T23:15:47.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EditProject.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\EditProject.cshtml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Project.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\Project.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\Project.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\Project.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\Project.cshtml.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAwDoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +336,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T02:49:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Register\\LoginRegister.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
+              "RelativeToolTip": "Pages\\Register\\LoginRegister.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T22:38:04.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml",
+              "RelativeToolTip": "Pages\\Register\\Register.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwC8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T22:36:32.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml.cs",
+              "RelativeToolTip": "Pages\\Register\\Register.cshtml.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwCYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:37:07.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml",
+              "RelativeToolTip": "Pages\\Projects\\EditProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T23:15:47.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LookForProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\LookForProject.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projects\\LookForProject.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\LookForProject.cshtml",
+              "RelativeToolTip": "Pages\\Projects\\LookForProject.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T22:47:34.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T23:31:02.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "profile.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\profile.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "wwwroot\\css\\profile.css",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAPUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-08T02:52:05.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Program.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +448,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Profile\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Profile\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Profile\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Profile\\Index.cshtml.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAcwIgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +460,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Profile.js",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\Profile.js",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\Profile.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\Profile.js",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\Profile.js",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\Profile.js",
               "RelativeToolTip": "wwwroot\\js\\Profile.js",
               "ViewState": "AgIAAEEAAAAAAAAAAAAIwDEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -419,11 +472,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "LookForProject.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\LookForProject.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\LookForProject.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\LookForProject.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\LookForProject.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\LookForProject.css",
               "RelativeToolTip": "wwwroot\\css\\LookForProject.css",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -431,23 +484,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Profile\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Profile\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Profile\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Profile\\Index.cshtml",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAAK8AAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T02:49:48.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "notifications.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\notifications.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\notifications.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\notifications.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\notifications.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\notifications.css",
               "RelativeToolTip": "wwwroot\\css\\notifications.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -455,11 +496,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CreateProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml",
               "RelativeDocumentMoniker": "Pages\\CreateProject\\CreateProject.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml",
               "RelativeToolTip": "Pages\\CreateProject\\CreateProject.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -467,11 +508,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,11 +520,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Project.js",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\Project.js",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\Project.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\Project.js",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\Project.js",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\Project.js",
               "RelativeToolTip": "wwwroot\\js\\Project.js",
               "ViewState": "AgIAADsAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -491,11 +532,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "projects.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\projects.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\projects.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\projects.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\projects.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\projects.css",
               "RelativeToolTip": "wwwroot\\css\\projects.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -503,11 +544,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Profile.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
               "RelativeDocumentMoniker": "Models\\Profile.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
               "RelativeToolTip": "Models\\Profile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -515,11 +556,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Project.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Models\\Project.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
               "RelativeToolTip": "Models\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "CreateProject.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\CreateProject\\CreateProject.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml.cs",
               "RelativeToolTip": "Pages\\CreateProject\\CreateProject.cshtml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -539,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "AdminManageProyects.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageProyects.cshtml.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAmwF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,11 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAIA5wBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -563,11 +604,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "AdminManageProyects.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageProyects.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageProyects.cshtml",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageProyects.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAuwEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -575,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "AdminManageUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageUser.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -587,23 +628,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LoginRegister.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Register\\LoginRegister.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
-              "RelativeToolTip": "Pages\\Register\\LoginRegister.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T22:38:04.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Pages\\Register\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml",
               "RelativeToolTip": "Pages\\Register\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -612,22 +641,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\Register.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\Register.cshtml",
-              "RelativeToolTip": "Pages\\Register\\Register.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwC8AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T22:36:32.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "AdminManageUser.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageUser.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageUser.cshtml.cs",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageUser.cshtml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,11 +652,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AdminManageUser.js",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\AdminManageUser.js",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\AdminManageUser.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\AdminManageUser.js",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\AdminManageUser.js",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\AdminManageUser.js",
               "RelativeToolTip": "wwwroot\\js\\AdminManageUser.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -647,11 +664,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "LoginRegister.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\LoginRegister.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\LoginRegister.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\LoginRegister.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\LoginRegister.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\LoginRegister.css",
               "RelativeToolTip": "wwwroot\\css\\LoginRegister.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -659,11 +676,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AdminManageProyects.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\AdminManageProyects.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\AdminManageProyects.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\AdminManageProyects.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\AdminManageProyects.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\AdminManageProyects.css",
               "RelativeToolTip": "wwwroot\\css\\AdminManageProyects.css",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -671,11 +688,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AdminManageUser.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\AdminManageUser.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\AdminManageUser.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\AdminManageUser.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\AdminManageUser.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\AdminManageUser.css",
               "RelativeToolTip": "wwwroot\\css\\AdminManageUser.css",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAEsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -683,11 +700,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\AdminHome\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -695,11 +712,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\UserHome\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\UserHome\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\UserHome\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\UserHome\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\UserHome\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\UserHome\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -707,11 +724,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "AdminManageHome.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageHome.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageHome.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -719,11 +736,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\UserHome\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\UserHome\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\UserHome\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\UserHome\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\UserHome\\Index.cshtml",
               "RelativeToolTip": "Pages\\UserHome\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -731,11 +748,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "_NotificationsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_NotificationsPartial.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_NotificationsPartial.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -743,11 +760,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\Index.cshtml",
               "RelativeToolTip": "Pages\\AdminHome\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -755,11 +772,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Privacy.cshtml",
               "RelativeToolTip": "Pages\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -767,11 +784,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "AdminManageHome.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AdminHome\\AdminManageHome.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\AdminHome\\AdminManageHome.cshtml.cs",
               "RelativeToolTip": "Pages\\AdminHome\\AdminManageHome.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -779,11 +796,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwH8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -791,11 +808,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -803,23 +820,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\Register.cshtml.cs",
-              "RelativeToolTip": "Pages\\Register\\Register.cshtml.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAQwCYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:37:07.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "LoginRegister.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\LoginRegister.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Register\\LoginRegister.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\LoginRegister.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml.cs",
               "RelativeToolTip": "Pages\\Register\\LoginRegister.cshtml.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -829,9 +834,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "ForgotPassword.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Register\\ForgotPassword.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ForgotPassword.cshtml.cs",
               "RelativeToolTip": "Pages\\Register\\ForgotPassword.cshtml.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -841,9 +846,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Pages\\Register\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ResetPassword.cshtml",
               "RelativeToolTip": "Pages\\Register\\ResetPassword.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -853,9 +858,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "ProjectUser.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\ProjectUser.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\ProjectUser.cs",
               "RelativeDocumentMoniker": "Models\\ProjectUser.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\ProjectUser.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\ProjectUser.cs",
               "RelativeToolTip": "Models\\ProjectUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -865,9 +870,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "DocumentProject.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\DocumentProject.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\DocumentProject.cs",
               "RelativeDocumentMoniker": "Models\\DocumentProject.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\DocumentProject.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\DocumentProject.cs",
               "RelativeToolTip": "Models\\DocumentProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -877,9 +882,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAK8AAAAAAAAAAADwv7UAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -889,9 +894,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "UpdatePhotos.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\UpdatePhotos.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml",
               "RelativeToolTip": "Pages\\Projects\\UpdatePhotos.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAC4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -901,9 +906,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "LookForProject.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\LookForProject.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\LookForProject.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\LookForProject.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\LookForProject.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\LookForProject.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\LookForProject.cshtml.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAmwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -913,9 +918,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "_NotificationsPartial.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Shared\\_NotificationsPartial.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_NotificationsPartial.cshtml.cs",
               "RelativeToolTip": "Pages\\Shared\\_NotificationsPartial.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -925,9 +930,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Notification.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Notification.cs",
               "RelativeToolTip": "Models\\Notification.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -937,9 +942,9 @@
               "$type": "Document",
               "DocumentIndex": 55,
               "Title": "AddPhotos.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\AddPhotos.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml",
               "RelativeToolTip": "Pages\\Projects\\AddPhotos.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -949,9 +954,9 @@
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -961,9 +966,9 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "AddPhotos.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\AddPhotos.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddPhotos.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\AddPhotos.cshtml.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAcwFYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -973,9 +978,9 @@
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "PhotoProject.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\PhotoProject.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\PhotoProject.cs",
               "RelativeDocumentMoniker": "Models\\PhotoProject.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\PhotoProject.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\PhotoProject.cs",
               "RelativeToolTip": "Models\\PhotoProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -985,9 +990,9 @@
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "UpdatePhotos.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\UpdatePhotos.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\UpdatePhotos.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\UpdatePhotos.cshtml.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -997,9 +1002,9 @@
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "createproyect.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\createproyect.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\createproyect.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\createproyect.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\createproyect.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\createproyect.css",
               "RelativeToolTip": "wwwroot\\css\\createproyect.css",
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -1009,9 +1014,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "AddDocuments.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\AddDocuments.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml",
               "RelativeToolTip": "Pages\\Projects\\AddDocuments.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1021,9 +1026,9 @@
               "$type": "Document",
               "DocumentIndex": 62,
               "Title": "AddDocuments.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\AddDocuments.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\AddDocuments.cshtml.cs",
               "RelativeToolTip": "Pages\\Projects\\AddDocuments.cshtml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1033,9 +1038,9 @@
               "$type": "Document",
               "DocumentIndex": 61,
               "Title": "Error.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Error.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Error.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Error.cshtml.cs",
               "RelativeToolTip": "Pages\\Error.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1045,9 +1050,9 @@
               "$type": "Document",
               "DocumentIndex": 63,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1057,9 +1062,9 @@
               "$type": "Document",
               "DocumentIndex": 64,
               "Title": "AdminManageProyects.js",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\AdminManageProyects.js",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\AdminManageProyects.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\AdminManageProyects.js",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\js\\AdminManageProyects.js",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\AdminManageProyects.js",
               "RelativeToolTip": "wwwroot\\js\\AdminManageProyects.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -1069,9 +1074,9 @@
               "$type": "Document",
               "DocumentIndex": 65,
               "Title": "Index.css",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\Index.css",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\Index.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Index.css",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\wwwroot\\css\\Index.css",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\Index.css",
               "RelativeToolTip": "wwwroot\\css\\Index.css",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -1081,9 +1086,9 @@
               "$type": "Document",
               "DocumentIndex": 66,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1093,9 +1098,9 @@
               "$type": "Document",
               "DocumentIndex": 67,
               "Title": "ResetPassword.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ResetPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Register\\ResetPassword.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\IntegracionProyecto3\\proyectamos\\proyectamos\\proyectamos\\Pages\\Register\\ResetPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\ResetPassword.cshtml.cs",
               "RelativeToolTip": "Pages\\Register\\ResetPassword.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

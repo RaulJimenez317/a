@@ -18,7 +18,9 @@ else
     <div class="profile-container">
         <div class="profile-header">
             <div class="profile-photo">
-                <img src="@(Model.ProfileData?.Image ?? "/images/default-user.png")" alt="Foto de perfil">
+                <img id="profilePreview"
+                     src="@(Model.ProfileData?.Image ?? "/images/default-user.png")"
+                     alt="Foto de perfil" />
             </div>
             <div class="profile-info">
                 <h2>@Model.UserData?.Name @Model.UserData?.LastName</h2>
