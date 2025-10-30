@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <Content Update="Pages\**\*.cshtml" CopyToOutputDirectory="PreserveNewest" />
-    <Content Update="Index.cshtml" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>
