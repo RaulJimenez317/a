@@ -38,10 +38,17 @@
     <h4>Creador:</h4>
     <div class="d-flex align-items-center">
         <div class="me-3">
-            <img src="@(project.User.Profile?.Image ?? "/images/default-user.png")"
-                 alt="Foto de @project.User.Name"
-                 class="rounded-circle"
-                 style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+            @if (!string.IsNullOrEmpty(project.User.Profile?.Image))
+            {
+                <img src="@(project.User.Profile?.Image ?? "/images/default-user.png")"
+                     alt="Foto de @project.User.Name"
+                     class="rounded-circle"
+                     style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+            }
+            else
+            {
+                <i class="bi bi-person-circle text-secondary" style="font-size: 3rem;"></i>
+            }
         </div>
 
         <div>
@@ -166,9 +173,17 @@
                                     {
                                         <div class="d-flex align-items-center justify-content-between border rounded p-2 mb-2">
                                             <div class="d-flex align-items-center">
-                                                <img src="@(member.User.Profile?.Image ?? "~/images/default-user.png")"
-                                                     class="rounded-circle me-3"
-                                                     style="width:45px; height:45px; object-fit:cover;" />
+                                                @if (!string.IsNullOrEmpty(member.User.Profile?.Image))
+                                                {
+                                                    <img src="@(member.User.Profile?.Image ?? "~/images/default-user.png")"
+                                                    class="rounded-circle me-3"
+                                                    style="width:45px; height:45px; object-fit:cover;" />
+                                                }
+                                                else
+                                                {
+                                                    <i class="bi bi-person-circle text-secondary" style="font-size: 3rem;"></i>
+                                                }
+
                                                 <div>
                                                     <strong>@member.User.Name @member.User.LastName</strong><br />
                                                     <span class="text-muted small">@member.User.Email</span>
@@ -226,10 +241,18 @@
                             <div class="d-flex justify-content-between align-items-start mb-2">
                                 <div class="d-flex align-items-center">
                                     <div class="me-3">
-                                        <img src="@Url.Content(c.User.Profile?.Image ?? "~/images/default-user.png")"
-                                             alt="Foto de @c.User.Name"
-                                             class="rounded-circle"
-                                             style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+                                        @if (!string.IsNullOrEmpty(c.User.Profile?.Image))
+                                        {
+                                            <img src="@Url.Content(c.User.Profile?.Image ?? "~/images/default-user.png")"
+                                                 alt="Foto de @c.User.Name"
+                                                 class="rounded-circle"
+                                                 style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+                                        }
+                                        else                           
+                                        {
+                                            <i class="bi bi-person-circle text-secondary" style="font-size: 3rem;"></i>
+                                        }
+
                                     </div>
 
                                     <div>

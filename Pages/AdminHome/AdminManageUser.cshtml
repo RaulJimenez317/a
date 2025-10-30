@@ -36,8 +36,17 @@
 
 
 
-                <img src="@profileImage" alt="Foto" class="user-list-img"
-                     style="width:45px; height:45px; border-radius:50%; object-fit:cover; margin-right:10px;">
+                @if (!string.IsNullOrEmpty(user.Profile?.Image))
+                {
+                    <img src="@user.Profile.Image" alt="Foto"
+                         class="user-list-img"
+                         style="width:45px; height:45px; border-radius:50%; object-fit:cover; margin-right:10px;">
+                }
+                else
+                {
+                    <i class="bi bi-person-circle text-secondary"
+                       style="font-size: 2.5rem; margin-right:10px;"></i>
+                }
 
                 <div>
                     <h6 class="mb-0">
@@ -59,9 +68,17 @@
         {
             <div class="profile-header d-flex">
                 <div class="profile-photo">
-                    <img src="@(Model.SelectedProfile?.Image ?? "/images/default-user.png")"
-                         alt="Foto de perfil" id="profilePreview"
-                         style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                    @if (string.IsNullOrEmpty(Model.SelectedProfile?.Image))
+                    {
+                        <i class="bi bi-person-circle" style="font-size: 120px; color: #6c757d;"></i>
+                    }
+                    else
+                    {
+                        <img src="@Model.SelectedProfile.Image"
+                             alt="Foto de perfil" id="profilePreview"
+                             style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                    }
+
                 </div>
 
                 <div class="profile-info" style="margin-left:20px;">
