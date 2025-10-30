@@ -1,0 +1,426 @@
+﻿/* =======================
+   CONTENEDOR PRINCIPAL
+======================= */
+.admin-user-container {
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+    background-color: #e4efe9;
+    font-family: 'Inter', sans-serif;
+}
+
+.inactive {
+    opacity: 0.5;
+}
+
+/* =======================
+   LISTA DE USUARIOS
+======================= */
+.user-list {
+    width: 25%;
+    background: #f0f7f3;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.user-list .search-box {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: 1px solid #91b29f;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fefcf9;
+    border: 1px solid transparent;
+}
+
+.user-card:hover {
+    background-color: #d0e8df;
+    border-color: #91b29f;
+}
+
+.user-card.inactive {
+    opacity: 0.4;
+}
+
+.user-list-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+    border: 2px solid #91b29f;
+}
+
+.badge.bg-danger {
+    background-color: #ff6b6b !important;
+    font-size: 0.75rem;
+}
+
+/* =======================
+   CONTENEDOR DE PERFIL
+======================= */
+.profile-container {
+    flex-grow: 1;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #e4efe9;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    padding: 30px 40px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #91b29f;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #464040;
+    font-size: 1.8rem;
+}
+
+.username {
+    color: #5f5f5f;
+    font-size: 0.95rem;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #464040;
+    transition: color 0.3s ease;
+}
+
+    .dropbtn:hover {
+        color: #91b29f;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #f0f7f3;
+    min-width: 180px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    z-index: 50;
+    padding: 10px;
+    flex-direction: column;
+}
+
+    .dropdown-content.show {
+        display: flex;
+    }
+
+    .dropdown-content button,
+    .dropdown-content form button {
+        padding: 8px 12px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        background-color: #91b29f;
+        color: #fff;
+        font-weight: bold;
+        transition: all 0.2s ease;
+    }
+
+        .dropdown-content button:hover,
+        .dropdown-content form button:hover {
+            background-color: #7fa68d;
+        }
+
+/* =======================
+   BOTONES
+======================= */
+.btn-edit,
+.btn-save {
+    background-color: #91b29f;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-edit:hover,
+.btn-save:hover {
+    background-color: #7fa68d;
+}
+
+.btn-cancel {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-cancel:hover {
+    background-color: #d73830;
+}
+
+/* =======================
+   ESTADÍSTICAS
+======================= */
+.profile-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.stat {
+    background: #a4c3b2;
+    padding: 18px 28px;
+    border-radius: 20px;
+    text-align: center;
+    color: #464040;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+}
+
+.stat-number {
+    font-size: 22px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 14px;
+}
+
+/* =======================
+   PESTAÑAS
+======================= */
+.profile-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #91b29f;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tab-button.active {
+    background-color: #91b29f;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* =======================
+   SOBRE MI Y LINKS
+======================= */
+.about-section {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #91b29f;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #7fa68d;
+    color: #fff;
+}
+
+.links a i {
+    margin-right: 8px;
+}
+
+/* =======================
+   PROYECTOS
+======================= */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #a4c3b2;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.project-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #464040;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #5f5f5f;
+    margin-top: 5px;
+}
+
+.project-card i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    color: #464040;
+    transition: 0.3s;
+}
+
+.project-card i:hover {
+    color: #91b29f;
+}
+
+/* =======================
+   MODAL
+======================= */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-overlay.hidden {
+    display: none;
+}
+
+.modal-delete {
+    background-color: #fff7eb;
+    padding: 30px 25px;
+    border-radius: 16px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.modal-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-cancel {
+    background-color: #ffd8b0;
+    color: #464040;
+}
+
+.btn-cancel:hover {
+    background-color: #ffb27a;
+}
+
+.btn-delete {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #e65555;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+

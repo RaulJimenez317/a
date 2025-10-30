@@ -1,0 +1,71 @@
+﻿
+.project-description,
+.profile-stats,
+.project-card,
+.about-text,
+.card-body p,
+textarea,
+a {
+    white-space: normal !important; 
+    overflow-wrap: break-word !important;
+    word-break: break-word !important; 
+    max-width: 100%; 
+}
+
+.btn-project-edit {
+    background-color: #6b8c7a;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .btn-project-edit:hover {
+        background-color: #557b67;
+    }
+
+.btn-project-add {
+    background-color: #9b7a78;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .btn-project-add:hover {
+        background-color: #856665;
+    }
+
+.btn-project-delete {
+    background-color: #c94c4c; 
+    color: white;
+    padding: 9px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-project-delete:hover {
+        background-color: #a33a3a;
+    }

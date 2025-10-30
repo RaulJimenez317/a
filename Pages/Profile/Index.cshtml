@@ -1,0 +1,343 @@
+﻿@page "/Profiles/{id:int}"
+@model Proyectamos.Pages.Profiles.IndexModel
+@{
+    ViewData["Title"] = "Perfil de Usuario";
+    int? userIdSession = HttpContext.Session.GetInt32("UserId");
+
+}
+
+<link rel="stylesheet" href="~/css/profile.css">
+
+@if (Model.UserData?.Status == 0)
+{
+    <h1>Usuario Eliminado</h1>
+}
+else
+{
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-photo">
+                <img src="@(Model.ProfileData?.Image ?? "/images/default-user.png")" alt="Foto de perfil">
+            </div>
+            <div class="profile-info">
+                <h2>@Model.UserData?.Name @Model.UserData?.LastName</h2>
+                <p class="username">@Model.UserData?.Email</p>
+                @if (userIdSession == Model.UserData?.Id)
+                {
+                    <button id="editProfileBtn" class="btn-edit" onclick="showEditForm()">Editar Perfil</button>
+                }
+
+
+
+                <!--Notificaciones -->
+                @if (userIdSession == Model.UserData?.Id)
+                {
+                    <div style="position: relative; display: inline-block;">
+                        <button type="button" class="btn-notification" data-bs-toggle="modal" data-bs-target="#notificationsModal">
+                            <i class="bi bi-bell @(Model.Notifications.Any() ? "has-alert" : "")"></i>
+                            @if (Model.Notifications.Any())
+                            {
+                                <span class="badge bg-danger" style="position: absolute; top: 0; right: 0;">
+                                    @Model.Notifications.Count
+                                </span>
+                            }
+                        </button>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+        <!--Mensajes -->
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success text-center mt-2">@TempData["Message"]</div>
+        }
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger text-center mt-2">@TempData["Error"]</div>
+        }
+
+        <div id="editProfileForm" class="edit-form" style="display:none;">
+            <form method="post" enctype="multipart/form-data" class="profile-form">
+
+                <div class="form-group photo-section">
+                    <label>Foto de Perfil:</label>
+                    <div class="photo-preview">
+                        <img id="profilePreview" src="@Model.ProfileData?.Image ?? " /images/default-user.png"" alt="Foto de perfil" />
+                        <button type="button" class="btn-remove-photo" onclick="removePhoto()">Eliminar</button>
+                    </div>
+                    <input type="file" name="ProfileImage" accept="image/*" onchange="previewPhoto(this)" />
+                    <input type="hidden" name="RemoveProfileImage" id="removeProfileImage" value="false" />
+                </div>
+
+                <div class="form-group cv-section">
+                    <label>Curriculum:</label>
+
+                    @if (!string.IsNullOrEmpty(Model.ProfileData?.Curriculum))
+                    {
+                        <div class="cv-preview" id="cvPreview">
+                            <a href="@Model.ProfileData.Curriculum" target="_blank" class="cv-link">@System.IO.Path.GetFileName(Model.ProfileData.Curriculum)</a>
+                            <button type="button" class="btn-remove-cv" onclick="removeCV()">Eliminar</button>
+                        </div>
+                    }
+
+                    <input type="file" name="ProfileCurriculum" />
+                    <input type="hidden" name="RemoveCurriculum" id="removeCurriculum" value="false" />
+                </div>
+
+                <div class="form-group">
+                    <label>Sobre mí:</label>
+                    <textarea name="ProfileData.AboutMe" placeholder="Escribe sobre ti...">@Model.ProfileData?.AboutMe</textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>LinkedIn:</label>
+                    <input type="url" name="ProfileData.Linkedin" placeholder="URL de LinkedIn" value="@Model.ProfileData?.Linkedin" />
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn-save">Guardar</button>
+                    <button type="button" class="btn-cancel" onclick="hideEditForm()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="profile-stats">
+            <div class="stat">
+                <span class="stat-number">@Model.SubscribedProjects.Count()</span>
+                <span class="stat-label">Proyectos Inscritos</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">@Model.CreatedProjects.Count()</span>
+                <span class="stat-label">Proyectos Creados</span>
+            </div>
+        </div>
+
+        <div class="profile-tabs">
+            <button class="tab-button active" onclick="showSection('about')">Sobre Mí</button>
+            <button class="tab-button" onclick="showSection('inscritos')">Proyectos Inscritos</button>
+            <button class="tab-button" onclick="showSection('creados')">Proyectos Creados</button>
+        </div>
+
+        <div id="about" class="tab-content active">
+            <div class="about-section d-flex justify-content-between align-items-start">
+                <div class="about-text" style="flex: 2; margin-right:20px;">
+                    <strong><i>Sobre Mi:</i> </strong>
+                    <p id="aboutText">
+                        @if (!string.IsNullOrEmpty(Model.ProfileData?.AboutMe))
+                        {
+                            @Model.ProfileData.AboutMe
+                        }
+                        else
+                        {
+                            <em>No hay información disponible.</em>
+                        }
+                    </p>
+                </div>
+
+                <div class="links d-flex flex-column" style="flex: 1; align-items:flex-start;">
+                    @if (!string.IsNullOrEmpty(Model.ProfileData?.Linkedin))
+                    {
+                        <a href="@Model.ProfileData.Linkedin" target="_blank">
+                            <i class="bi bi-linkedin fs-5 me-2"></i> Mi LinkedIn
+                        </a>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ProfileData?.Curriculum))
+                    {
+                        <a href="@Model.ProfileData.Curriculum" download>
+                            <i class="bi bi-file-earmark-arrow-down fs-5 me-2"></i> Descargue mi Curriculum
+                        </a>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.UserData?.Email))
+                    {
+                        <a href="https://mail.google.com/mail/?view=cm&to=@(Model.UserData.Email)" target="_blank">
+                            <i class="bi bi-envelope fs-5 me-2"></i> Mi correo
+                        </a>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+        <div id="inscritos" class="tab-content">
+            <input type="text" id="searchSubscribed" placeholder="Buscar Proyecto..." class="search-box" />
+
+            <div class="projects-grid">
+                @if (Model.SubscribedProjects != null && Model.SubscribedProjects.Any())
+                {
+                    @foreach (var project in Model.SubscribedProjects)
+                    {
+                        <div class="project-card">
+                            <a asp-page="/Projects/Project" asp-route-id="@project.Id" class="project-name text-black">@project.Name</a>
+                            <p>
+                                @(project.Description != null && project.Description.Length > 20
+                                                    ? project.Description.Substring(0, 20) + "..."
+                                                    : project.Description)
+                            </p>
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No estás inscrito en ningún proyecto.</p>
+                }
+            </div>
+        </div>
+
+        <div id="creados" class="tab-content">
+            <input type="text" id="searchCreated" placeholder="Buscar Proyecto..." class="search-box" />
+            <div class="projects-grid">
+                @if (Model.CreatedProjects != null && Model.CreatedProjects.Any())
+                {
+                    @foreach (var project in Model.CreatedProjects)
+                    {
+                        <div class="project-card">
+                            <a asp-page="/Projects/Project" asp-route-id="@project.Id" class="project-name text-black">@project.Name</a>
+                            <p>
+                                @(project.Description != null && project.Description.Length > 20
+                                                    ? project.Description.Substring(0, 20) + "..."
+                                                    : project.Description)
+                            </p>
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No has creado ningún proyecto todavía.</p>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+
+
+<!--Modal de Notificaciones -->
+<div class="modal fade" id="notificationsModal" tabindex="-1" aria-labelledby="notificationsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="notificationsModalLabel">Notificaciones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                @if (Model.Notifications.Any())
+                {
+                    <ul class="list-group position-relative">
+                        @foreach (var notif in Model.Notifications)
+                        {
+                            <li class="list-group-item position-relative">
+                                <strong>@notif.Type</strong><br />
+
+                                @if (notif.FromUser != null)
+                                {
+                                    <span>De: @notif.FromUser.Name @notif.FromUser.LastName</span>
+                        
+                                    <br />
+                                }
+
+                                @if (notif.Project != null)
+                                {
+                                    <span>Proyecto: <a href="/Projects/Project?id=@notif.ProjectID">@notif.Project.Name</a></span>
+                        
+                                    <br />
+                                }
+
+                                <small class="text-muted">@notif.Date.ToString("dd/MM/yyyy HH:mm")</small>
+
+                                <!--Solo mostrar botones si es una solicitud de union -->
+                                @if (notif.Type == "Solicitud de unión")
+                                {
+                                    <div class="mt-2 d-flex gap-2">
+                                        <form method="post" asp-page-handler="AcceptNotification">
+                                            <input type="hidden" name="notificationId" value="@notif.Id" />
+                                            <input type="hidden" name="toUserId" value="@notif.FromUserID" />
+                                            <input type="hidden" name="message" value="Tu solicitud ha sido aceptada" />
+                                            <button type="submit" class="btn btn-success btn-sm">Aceptar</button>
+                                        </form>
+
+                                        <button class="btn btn-danger btn-sm"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#rejectModal"
+                                                data-id="@notif.Id"
+                                                data-user="@notif.FromUserID">
+                                            Rechazar
+                                        </button>
+                                    </div>
+                                }
+
+                                @if (!string.IsNullOrEmpty(notif.Message))
+                                {
+                                    <p><strong>Motivo:</strong> @notif.Message</p>
+                                }
+
+                                <!-- Botón eliminar solo para solicitudes aceptadas o rechazadas -->
+                                @if (notif.Type == "Solicitud aceptada" || notif.Type == "Solicitud rechazada")
+                                {
+                                    <form method="post" asp-page-handler="DeleteNotification" class="position-absolute top-0 end-0 m-2">
+                                        <input type="hidden" name="notificationId" value="@notif.Id" />
+                                        <button type="submit" class="btn btn-sm btn-outline-danger"
+                                                style="padding: 0 6px; font-weight:bold; line-height:1;"
+                                                onclick="return confirm('¿Estás seguro de eliminar esta notificación?');">
+                                            ×
+                                        </button>
+                                    </form>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p class="text-center text-muted">No tienes notificaciones nuevas 🎉</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Rechazo -->
+<div class="modal fade" id="rejectModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <form method="post" asp-page-handler="RejectNotification">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rechazar solicitud</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="notificationId" name="notificationId" />
+                    <input type="hidden" id="toUserId" name="toUserId" />
+                    <div class="mb-3">
+                        <label>Motivo del rechazo:</label>
+                        <textarea name="message" class="form-control" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger">Enviar rechazo</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const rejectModal = document.getElementById('rejectModal');
+        rejectModal.addEventListener('show.bs.modal', event => {
+            const button = event.relatedTarget;
+            document.getElementById('notificationId').value = button.getAttribute('data-id');
+            document.getElementById('toUserId').value = button.getAttribute('data-user');
+        });
+    });
+</script>
+
+
+<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+<script src="/js/Profile.js"></script>

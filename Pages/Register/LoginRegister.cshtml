@@ -1,0 +1,115 @@
+﻿@page
+@model Proyectamos.Pages.Register.LoginRegisterModel
+@{
+
+    if (HttpContext.Session.GetInt32("UserId") != null)
+    {
+        HttpContext.Session.Clear();
+    }
+}
+<link rel="stylesheet" href="~/css/LoginRegister.css" />
+
+<div class="login-container">
+    <!-- Izquierdo -->
+    <div class="login-left">
+        <div class="logo">
+            <img src="/images/logo.jpeg" alt="Logo" style="width:200px">
+        </div>
+        <h2>¡Bienvenido de nuevo!</h2>
+        <p>Ingresa para continuar explorando proyectos</p>
+    </div>
+
+    <!-- Derecho -->
+    <div class="login-right">
+        <button class="close-btn" type="button" onclick="window.location.href='/'">✕</button>
+
+        <h2>Iniciar Sesión</h2>
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-danger">
+                @Model.ErrorMessage
+            </div>
+        }
+        <form method="post">
+            <input asp-for="LoginData.Email" type="email" placeholder="Correo electrónico" value="@Model.LoginData?.Email" required />
+            <div class="password-wrapper">
+                <input asp-for="LoginData.Password" type="password" placeholder="Contraseña" required id="passwordInput" />
+                <button type="button" class="show-password-btn" onclick="togglePassword()"> <i class="bi bi-eye"></i> </button>
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
+            <partial name="_ValidationScriptsPartial" />
+        </form>
+
+@*         <p class="register-link">
+            ¿Olvidaste tu contraseña?
+            <a href="/Register/ForgotPassword">Recupérala aquí</a>
+        </p> *@
+
+        <p class="register-link">
+            ¿Ya tienes una cuenta?
+            <a href="/Register/Register">Registrate Aqui</a>
+        </p>
+        
+    </div>
+</div>
+
+
+<script>
+    function togglePassword() {
+        const input = document.getElementById('passwordInput');
+        const icon = document.querySelector('.show-password-btn i');
+
+        if (input.type === 'password') {
+            input.type = 'text';
+            icon.classList.remove('bi-eye');
+            icon.classList.add('bi-eye-slash');
+        } else {
+            input.type = 'password';
+            icon.classList.remove('bi-eye-slash');
+            icon.classList.add('bi-eye');
+        }
+    }
+</script>
+
+<style>
+
+    input[type="password"]::-ms-reveal,
+    input[type="password"]::-ms-clear {
+        display: none;
+    }
+
+    input[type="password"]::-webkit-inner-spin-button,
+    input[type="password"]::-webkit-outer-spin-button,
+    input[type="password"]::-webkit-clear-button,
+    input[type="password"]::-webkit-search-cancel-button {
+        display: none;
+    }
+
+    input[type="password"]::-webkit-textfield-decoration-container {
+        display: none;
+    }
+
+    .password-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .password-wrapper input {
+        flex: 1;
+        padding-right: 40px; 
+    }
+
+    .show-password-btn {
+        position: absolute;
+        right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+</style>
+
+
+        

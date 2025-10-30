@@ -1,0 +1,351 @@
+﻿@page
+@model Proyectamos.Pages.Projects.ProjectModel
+@{
+    var project = Model.ProjectTest;
+    int? userIdSession = HttpContext.Session.GetInt32("UserId");
+
+    if (HttpContext.Session.GetInt32("UserId") == null)
+    {
+        RedirectToPage("/Register/LoginRegister");
+    }
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center mt-3">
+            @TempData["Message"]
+        </div>
+    }
+
+
+    var role = HttpContext.Session.GetString("UserRole");
+}
+<link rel="stylesheet" href="~/css/projects.css" asp-append-version="true" />
+<div class="container mt-4">
+    <div class="d-flex justify-content-end mb-3">
+        @if (userIdSession == project.UserID || role == "admin")
+        {
+            <a href="/Projects/EditProject?id=@project.Id" class="btn btn-project-edit me-2">
+                <i class="bi bi-pencil-square"></i> Editar Proyecto
+            </a>
+
+            <form method="post" asp-page-handler="DeleteProject" asp-route-id="@project.Id" onsubmit="return confirm('¿Seguro que deseas eliminar este proyecto?');">
+                <button type="submit" class="btn btn-project-delete">
+                    <i class="bi bi-trash"></i> Eliminar Proyecto
+                </button>
+            </form>
+        }
+    </div>
+    <h4>Creador:</h4>
+    <div class="d-flex align-items-center">
+        <div class="me-3">
+            <img src="@(project.User.Profile?.Image ?? "/images/default-user.png")"
+                 alt="Foto de @project.User.Name"
+                 class="rounded-circle"
+                 style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+        </div>
+
+        <div>
+            <strong>
+                <a href="/Profiles/@project.User.Id" class="text-decoration-none text-dark">
+                    @project.User.Name @project.User.LastName
+                </a>
+            </strong>
+            <div class="text-muted small">@("@" + project.User.Email)</div>
+        </div>
+    </div>
+    <br />
+
+
+    <h2 class="fw-bold">@project.Name</h2>
+
+
+ 
+    <p>Categoria: @project.Category.Name</p>
+
+
+
+
+
+
+    <div class="row align-items-start mb-4">
+        <div class="col-md-8">
+            <p class="text-secondary project-description">
+                @project.Description
+            </p>
+            <h6 class="fw-semibold">Documentación relacionada</h6>
+            @foreach (var doc in project.Files)
+            {
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-folder-fill text-warning me-2 fs-5"></i>
+                    <a href="@doc.File" target="_blank" class="text-decoration-none">@doc.Name</a>
+
+                    @if (userIdSession == project.UserID)
+                    {
+                        <form method="post" asp-page-handler="DeleteDocument" class="ms-3">
+                            <input type="hidden" name="DocumentId" value="@doc.Id" />
+                            <button type="submit" class="btn btn-sm btn-outline-danger"
+                                    onclick="return confirm('¿Deseas eliminar este documento?');">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </form>
+                    }
+                </div>
+            }
+        </div>
+        <div class="col-md-4">
+            @if (project.Photos.Any())
+            {
+                <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        @for (int i = 0; i < project.Photos.Count; i++)
+                        {
+                            var photo = project.Photos[i];
+                            <div class="carousel-item @(i == 0 ? "active" : "") position-relative">
+                                <img src="~/uploads/createProyectImages/@photo.Image"
+                                     class="d-block w-100 rounded shadow-sm"
+                                     style="max-height:300px; object-fit:cover;" />
+
+                                @if (userIdSession == project.UserID)
+                                {
+                                    <form method="post" asp-page-handler="DeletePhoto" class="position-absolute" style="top: 10px; left: 65px;">
+                                        <input type="hidden" name="photoId" value="@photo.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </form>
+                                }
+                            </div>
+                        }
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                    <div class="carousel-indicators mt-2">
+                        @for (int i = 0; i < project.Photos.Count; i++)
+                        {
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-current="@(i == 0 ? "true" : "false")" aria-label="Slide @(i + 1)"></button>
+                        }
+                    </div>
+                </div>
+            }
+
+            @if (userIdSession == project.UserID)
+            {
+                <div class="mt-2 d-flex gap-2">
+                    <a class="btn btn-success btn-sm btn-project-add" asp-page="/Projects/AddPhotos" asp-route-id="@project.Id">
+                        <i class="bi bi-plus"></i> Añadir Fotos
+                    </a>
+                    <a class="btn btn-primary btn-sm btn-project-edit" asp-page="/Projects/UpdatePhotos" asp-route-id="@project.Id">
+                        <i class="bi bi-pencil"></i> Actualizar Fotos
+                    </a>
+                </div>
+
+                <div class="mt-4">
+                    <button class="btn btn-outline-secondary btn-project-edit" data-bs-toggle="modal" data-bs-target="#allMembersModal">
+                        Gestionar miembros
+                    </button>
+                </div>
+
+                <div class="modal fade" id="allMembersModal" tabindex="-1" aria-labelledby="allMembersModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header bg-light">
+                                <h5 class="modal-title fw-bold" id="allMembersModalLabel">Miembros del Proyecto</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                @if (Model.ProjectMembers != null && Model.ProjectMembers.Any())
+                                {
+                                    @foreach (var member in Model.ProjectMembers)
+                                    {
+                                        <div class="d-flex align-items-center justify-content-between border rounded p-2 mb-2">
+                                            <div class="d-flex align-items-center">
+                                                <img src="@(member.User.Profile?.Image ?? "/images/default-user.png")"
+                                                     class="rounded-circle me-3"
+                                                     style="width:45px; height:45px; object-fit:cover;" />
+                                                <div>
+                                                    <strong>@member.User.Name @member.User.LastName</strong><br />
+                                                    <span class="text-muted small">@member.User.Email</span>
+                                                </div>
+                                            </div>
+
+                                            <form method="post" asp-page-handler="RemoveMember" onsubmit="return confirm('¿Eliminar a este miembro del proyecto?');">
+                                                <input type="hidden" name="memberId" value="@member.Id" />
+                                                <button type="submit" class="btn btn-sm btn-danger">
+                                                    <i class="bi bi-person-dash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="text-center text-muted py-3">
+                                        No hay miembros registrados en este proyecto.
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    @if (userIdSession == project.UserID)
+    {
+        <div>
+            <a class="btn  btn-project-add" asp-page="/Projects/AddDocuments" asp-route-id="@project.Id">
+                Añadir Documentos
+            </a>
+        </div>
+    }
+    
+
+   
+    <hr />
+
+    @if (userIdSession == project.UserID || Model.IsUserInProject || role == "admin")
+    {
+        <h4 class="fw-bold mb-3">Comentarios (@project.Comments.Where(c => c.Status == 1).Count())</h4>
+
+        <div class="d-flex flex-column gap-3 mb-4">
+            @foreach (var c in project.Comments)
+            {
+                if (c.Status == 1)
+                {
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="d-flex align-items-center">
+                                    <div class="me-3">
+                                        <img src="@(c.User.Profile?.Image ?? "/images/default-user.png")"
+                                             alt="Foto de @c.User.Name"
+                                             class="rounded-circle"
+                                             style="width:40px; height:40px; object-fit:cover; border:1px solid #ccc;" />
+                                    </div>
+
+                                    <div>
+                                        <strong>
+                                            <a href="/Profiles/@c.User.Id" class="text-decoration-none text-dark">
+                                                @c.User.Name @c.User.LastName
+                                            </a>
+                                        </strong>
+                                        <div class="text-muted small">@("@" + c.User.Email)</div>
+                                    </div>
+                                </div>
+
+
+                                @if (userIdSession == c.UserID || userIdSession == project.UserID)
+                                {
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm btn-light border-0" type="button" data-bs-toggle="dropdown">
+                                            <i class="bi bi-three-dots-vertical"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li>
+                                                <form method="post" asp-page-handler="DeleteComment" asp-route-id="@c.Id" onsubmit="return confirm('¿Eliminar este comentario?');">
+                                                    <button type="submit" class="dropdown-item text-danger">
+                                                        <i class="bi bi-trash"></i> Eliminar
+                                                    </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }
+                            </div>
+                            <p class="mb-2">@c.Content</p>
+
+                            @if (c.Documents != null && c.Documents.Any())
+                            {
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    @foreach (var doc in c.Documents)
+                                    {
+                                        var ext = System.IO.Path.GetExtension(doc.File)?.ToLower();
+                                        if (ext == ".jpg" || ext == ".jpeg" || ext == ".png" || ext == ".gif")
+                                        {
+                                            <img src="@doc.File" class="img-fluid rounded shadow-sm" style="max-width:150px; object-fit:cover;" />
+                                        }
+                                        else
+                                        {
+                                            <a href="@doc.File" target="_blank" class="btn btn-sm btn-outline-secondary me-2 mb-2">
+                                                <i class="bi bi-file-earmark"></i> @System.IO.Path.GetFileName(doc.File)
+                                            </a>
+                                        }
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+
+
+        <form id="commentForm" method="post" enctype="multipart/form-data" class="card shadow-sm border-0">
+            <input type="hidden" name="ProjectId" value="@project.Id" />
+            <div class="card-body d-flex flex-column">
+                <div class="position-relative mb-3">
+                    <textarea name="CommentText" class="form-control pe-5 rounded-3" rows="2" placeholder="Escribe un comentario..."></textarea>
+                    <div class="position-absolute bottom-0 end-0 d-flex p-2 gap-3">
+                        <label class="btn p-0 m-0">
+                            <i class="bi bi-image fs-5 text-primary"></i>
+                            <input type="file" accept="image/*" multiple id="photosInput" style="display:none;">
+                        </label>
+                        <label class="btn p-0 m-0">
+                            <i class="bi bi-paperclip fs-5 text-secondary"></i>
+                            <input type="file" multiple id="filesInput" style="display:none;">
+                        </label>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success px-4 rounded-pill">Comentar</button>
+                </div>
+                <div id="preview" class="mt-2 d-flex flex-wrap gap-2"></div>
+            </div>
+        </form>
+    }
+    else
+    {
+        <div class="text-center mt-4">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#joinProjectModal">
+                Solicitar unirse al proyecto
+            </button>
+        </div>
+
+        <div class="modal fade" id="joinProjectModal" tabindex="-1" aria-labelledby="joinProjectModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="joinProjectModalLabel">Unirse al proyecto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Quieres solicitar unirte al equipo del proyecto <strong>@project.Name</strong>?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <form method="post" asp-page-handler="SolicitarUnion">
+                            <input type="hidden" name="idProyecto" value="@project.Id" />
+                            <button type="submit" class="btn btn-success">Sí, solicitar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+
+
+<script src="~/js/Project.js">
+    
+</script>

@@ -1,0 +1,208 @@
+﻿@page "/AdminHome/AdminManageUser"
+@model Proyectamos.Pages.Admin.AdminManageUserModel
+@{
+    ViewData["Title"] = "Administrar Usuarios";
+    int? userIdSession = HttpContext.Session.GetInt32("UserId");
+}
+
+<link rel="stylesheet" href="~/css/AdminManageUser.css" asp-append-version="true" />
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success mt-2">@TempData["Message"]</div>
+}
+
+
+<div class="admin-user-container d-flex" style="height:100vh; gap:20px; padding:20px;">
+
+
+    <div class="user-list" style="width:25%; overflow-y:auto;">
+        <form method="get">
+            <input type="text" name="search" placeholder="Buscar usuario..."
+                   class="search-box" value="@Request.Query["search"]" />
+            <button type="submit" hidden class="btn-search">Buscar</button>
+        </form>
+
+
+        @foreach (var user in Model.Users)
+        {
+            var profileImage = user.Profile?.Image ?? "/images/default-user.png";
+            string fullName = $"{user.Name} {user.LastName}";
+
+            <div class="user-card p-2 mb-2 d-flex align-items-center"
+                 data-name="@Html.Raw((user.Name + " " + user.LastName).ToLower())"
+                 data-user-id="@user.Id"
+                 style="cursor:pointer; border:1px solid #ddd; border-radius:12px;">
+
+
+
+                <img src="@profileImage" alt="Foto" class="user-list-img"
+                     style="width:45px; height:45px; border-radius:50%; object-fit:cover; margin-right:10px;">
+
+                <div>
+                    <h6 class="mb-0">
+                        @fullName
+                        @if (user.Status == 0)
+                        {
+                            <span class="badge bg-danger ms-2">Inactivo</span>
+                        }
+                    </h6>
+                    <p class="username small text-muted">@user.Email</p>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="profile-container flex-grow-1">
+
+        @if (Model.SelectedUser != null)
+        {
+            <div class="profile-header d-flex">
+                <div class="profile-photo">
+                    <img src="@(Model.SelectedProfile?.Image ?? "/images/default-user.png")"
+                         alt="Foto de perfil" id="profilePreview"
+                         style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                </div>
+
+                <div class="profile-info" style="margin-left:20px;">
+                    @if (Model.SelectedUser.Role == "admin")
+                    {
+                        <h2>@Model.SelectedUser.Name @Model.SelectedUser.LastName (Administrador)</h2>
+                    }
+                    else
+                    {
+                        <h2>@Model.SelectedUser.Name @Model.SelectedUser.LastName (Usuario)</h2>
+                    }
+
+                    <p class="username">@Model.SelectedUser.Email</p>
+                </div>
+
+                @if (userIdSession != Model.SelectedUser.Id)
+                {
+                    <div class="dropdown" style="margin-left:auto;">
+                        <button class="dropbtn">⋮</button>
+                        <div class="dropdown-content">
+                            <form method="post" asp-page-handler="ChangeRole">
+                                <input type="hidden" name="userId" value="@Model.SelectedUser.Id" />
+                                <button type="submit">@((Model.SelectedUser.Role == "admin") ? "Cambiar a User" : "Cambiar a Admin")</button>
+                            </form>
+
+                            @if (Model.SelectedUser.Status == 1)
+                            {
+                                <button type="button" onclick="openDeleteModal('@Model.SelectedUser.Id', '@Model.SelectedUser.Email')">
+                                    Eliminar
+                                </button>
+                            }
+                            else
+                            {
+                                <form method="post" asp-page-handler="ReactivateUser">
+                                    <input type="hidden" name="userId" value="@Model.SelectedUser.Id" />
+                                    <button type="submit">Reactivar Usuario</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                }
+
+
+
+            </div>
+
+            <div class="profile-stats d-flex gap-4 mt-3">
+                <div class="stat">
+                    <span class="stat-number">@Model.SubscribedProjects.Count()</span>
+                    <span class="stat-label">Proyectos Inscritos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">@Model.CreatedProjects.Count()</span>
+                    <span class="stat-label">Proyectos Creados</span>
+                </div>
+            </div>
+
+            <div class="profile-tabs mt-4">
+                <button class="tab-button active" onclick="showSection('about', event)">Sobre Mí</button>
+                <button class="tab-button" onclick="showSection('inscritos', event)">Proyectos Inscritos</button>
+                <button class="tab-button" onclick="showSection('creados', event)">Proyectos Creados</button>
+            </div>
+
+            <div id="about" class="tab-content active">
+                <strong><i>Sobre Mi:</i></strong>
+                <p>@(!string.IsNullOrEmpty(Model.SelectedProfile?.AboutMe) ? Model.SelectedProfile.AboutMe : "No hay información disponible.")</p>
+
+                <div class="links">
+                    @if (!string.IsNullOrEmpty(Model.SelectedProfile?.Linkedin))
+                    {
+                        <a href="@Model.SelectedProfile.Linkedin" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.SelectedProfile?.Curriculum))
+                    {
+                        <a href="@Model.SelectedProfile.Curriculum" download><i class="bi bi-file-earmark-arrow-down"></i> Descargar CV</a>
+                    }
+                    <a href="mailto:@Model.SelectedUser.Email"><i class="bi bi-envelope"></i> Correo</a>
+                </div>
+            </div>
+
+            <div id="inscritos" class="tab-content">
+                <input type="text" id="searchSubscribed" placeholder="Buscar Proyecto..." class="search-box" />
+                <div class="projects-grid">
+                    @if (Model.SubscribedProjects.Any())
+                    {
+                        @foreach (var project in Model.SubscribedProjects)
+                        {
+                            <div class="project-card">
+                                <a asp-page="/Projects/Project" asp-route-id="@project.Id" class="text-dark">@project.Name</a>
+                                <p>@project.Description</p>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>No está inscrito en ningún proyecto.</p>
+                    }
+                </div>
+            </div>
+
+            <div id="creados" class="tab-content">
+                <input type="text" id="searchCreated" placeholder="Buscar Proyecto..." class="search-box" />
+                <div class="projects-grid">
+                    @if (Model.CreatedProjects.Any())
+                    {
+                        @foreach (var project in Model.CreatedProjects)
+                        {
+                            <div class="project-card">
+                                <a asp-page="/Projects/Project" asp-route-id="@project.Id" class="text-dark">@project.Name</a>
+                                <p>@project.Description</p>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>No ha creado ningún proyecto.</p>
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <p>Seleccione un usuario para ver su perfil</p>
+        }
+    </div>
+</div>
+
+
+<div id="confirmDeleteModal" class="modal-overlay hidden">
+    <div class="modal-content modal-delete">
+        <h3 class="modal-title">Confirmar Eliminación</h3>
+        <p class="modal-text">¿Está seguro de que desea eliminar el usuario?</p>
+        <strong id="userToDeleteEmail" class="text-danger d-block mb-3"></strong>
+
+        <form id="deleteForm" method="post" asp-page-handler="DeleteUser" class="modal-buttons">
+            <input type="hidden" id="deleteUserId" name="userId" />
+            <button type="button" class="btn btn-cancel" id="closeModalBtn">Cancelar</button>
+            <button type="submit" class="btn btn-delete">Eliminar</button>
+        </form>
+    </div>
+</div>
+
+<script src="~/js/AdminManageUser.js" asp-append-version="true"></script>
+<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>

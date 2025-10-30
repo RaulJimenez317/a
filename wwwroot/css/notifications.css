@@ -1,0 +1,26 @@
+﻿.notification-container {
+    position: relative;
+}
+
+.notification-dropdown {
+    position: absolute;
+    right: 0;
+    top: 120%;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    max-height: 450px;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.notification-item {
+    background-color: #f8f9fa;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+    .notification-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }

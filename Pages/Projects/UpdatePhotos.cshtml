@@ -1,0 +1,88 @@
+﻿@page "{id:int}"
+@model Proyectamos.Pages.Projects.UpdatePhotosModel
+@{
+    ViewData["Title"] = "Actualizar Fotos";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm mx-auto" style="max-width: 600px;">
+        <div class="card-header bg-info text-white">
+            <h3 class="mb-0">Actualizar Fotos del Proyecto</h3>
+        </div>
+        <div class="card-body">
+            <p class="text-muted">Se reemplazarán las fotos actuales.</p>
+
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="ProjectId" />
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Selecciona nuevas imágenes (máx 5):</label>
+                    <input type="file" asp-for="Fotos" multiple accept="image/*" class="form-control" id="fotoInput" />
+                    <span asp-validation-for="Fotos" class="text-danger"></span>
+                </div>
+
+
+                <div id="previewContainer" class="d-flex flex-wrap gap-2 mb-3"></div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-page="/Projects/Project" asp-route-id="@Model.ProjectId" class="btn btn-secondary">
+                        Cancelar
+                    </a>
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-pencil-square me-1"></i> Actualizar Fotos
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const fotoInput = document.getElementById('fotoInput');
+        const previewContainer = document.getElementById('previewContainer');
+
+        fotoInput.addEventListener('change', () => {
+            previewContainer.innerHTML = ""; 
+
+            const files = fotoInput.files;
+            if(files.length > 5){
+                alert("Solo puedes seleccionar hasta 5 fotos.");
+                fotoInput.value = "";
+                return;
+            }
+
+            Array.from(files).forEach(file => {
+                const reader = new FileReader();
+                reader.onload = e => {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.style.width = "100px";
+                    img.style.height = "100px";
+                    img.style.objectFit = "cover";
+                    img.classList.add("rounded", "shadow-sm");
+                    previewContainer.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <style>
+        .card {
+            border-radius: 1rem;
+        }
+
+        .form-control:focus {
+            box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+            border-color: #0d6efd;
+        }
+
+        .btn-success, .btn-secondary {
+            min-width: 140px;
+        }
+    </style>
+}

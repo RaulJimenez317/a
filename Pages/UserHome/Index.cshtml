@@ -1,0 +1,42 @@
+﻿@page
+@model Proyectamos.Pages.UserHome.IndexModel
+@{
+    ViewData["Title"] = "Inicio Usuario";
+    Layout = "_Layout"; 
+
+    if (HttpContext.Session.GetInt32("UserId") == null)
+    {
+        RedirectToPage("/Register/LoginRegister");
+    }
+}
+
+<div class="home-admin-container">
+    <div class="home-admin-card">
+        <div class="text-center mb-4">
+            <h3 class="fw-bold">Hola, @HttpContext.Session.GetString("UserName")</h3>
+            <p class="fw-semibold">¿Qué Desea Hacer Hoy?</p>
+        </div>
+
+        <div class="options-container">
+            <!-- Crear Proyecto -->
+            <a asp-page="/CreateProject/CreateProject" class="option-card">
+                <div class="icon">
+                    <i class="bi bi-plus-circle"></i>
+                </div>
+                <p>Crear Proyecto</p>
+            </a>
+
+            <!-- Buscar Proyecto -->
+            <a asp-page="/Projects/LookForProject" class="option-card">
+                <div class="icon">
+                    <i class="bi bi-search"></i>
+                </div>
+                <p>Buscar Proyecto</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Home_Admin_User.css" />
+}

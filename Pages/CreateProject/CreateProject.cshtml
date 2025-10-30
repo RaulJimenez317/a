@@ -1,0 +1,80 @@
+﻿@page
+@model Proyectamos.Pages.CreateProject.CreateProjectModel
+@{
+    ViewData["Title"] = "Crear Proyecto";
+
+    if (HttpContext.Session.GetInt32("UserId") == null)
+    {
+        RedirectToPage("/Register/LoginRegister");
+    }
+}
+<div class="form-container">
+    <h2>Complete la Información del Proyecto</h2>
+
+    <form method="post" enctype="multipart/form-data">
+        <!-- Nombre del Proyecto -->
+        <label for="NombreProyecto">Nombre del Proyecto:</label>
+        <input asp-for="Proyecto.Nombre" placeholder="Ingrese el nombre del proyecto" />
+        <span asp-validation-for="Proyecto.Nombre" class="text-danger"></span>
+
+        <!-- Descripción -->
+        <label for="Descripcion">Descripción:</label>
+        <textarea asp-for="Proyecto.Descripcion" placeholder="Describa el proyecto..."></textarea>
+        <span asp-validation-for="Proyecto.Descripcion" class="text-danger"></span>
+
+        <!-- Categoría -->
+        <div class="form-row">
+            <div>
+                <label for="Categoria">Categoría:</label>
+                <select asp-for="Proyecto.CategoriaID" class="form-control">
+                    <option value="">--Seleccione--</option>
+                    @foreach (var cat in Model.Categorias)
+                    {
+                        <option value="@cat.Id">@cat.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="Proyecto.CategoriaID" class="text-danger"></span>
+            </div>
+
+            <!-- Subir Fotos -->
+            <div>
+                <label for="Proyecto_Foto">Sube Fotos del Proyecto (Opcional, máximo 5):</label>
+                <label id="fileLabel" class="custom-file-label" for="Proyecto_Foto">Seleccionar Imagen</label>
+                <input type="file" asp-for="Proyecto.Fotos" id="Proyecto_Foto" accept="image/*" multiple />
+                <span asp-validation-for="Proyecto.Fotos" class="text-danger"></span>
+            </div>
+        </div>
+
+        <script>
+            const inputFile = document.getElementById('Proyecto_Foto');
+            const fileLabel = document.getElementById('fileLabel');
+
+            inputFile.addEventListener('change', function () {
+                const files = inputFile.files;
+
+                if (files.length === 0) {
+                    fileLabel.textContent = 'Seleccionar Imagen';
+                } else if (files.length === 1) {
+                    fileLabel.textContent = files[0].name;
+                } else {
+                    fileLabel.textContent = files.length + ' archivos seleccionados';
+                }
+            });
+        </script>
+
+        <!-- Botones -->
+        <div class="form-actions">
+            <button type="button" class="btn-cancel" onclick="history.back()">Cancelar</button>
+            <button type="submit" class="btn-create">Crear Proyecto</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/createproyect.css" />
+}
+

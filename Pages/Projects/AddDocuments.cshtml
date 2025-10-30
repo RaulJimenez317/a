@@ -1,0 +1,23 @@
+﻿@page
+@model Proyectamos.Pages.Projects.AddDocumentsModel
+@{
+    var project = Model.Project;
+}
+
+<h3>Añadir Documentos al proyecto: @project.Name</h3>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" name="ProjectId" value="@Model.Project.Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Nombre del documento</label>
+        <input type="text" name="DocumentName" class="form-control" placeholder="Ej: Plan de trabajo" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Selecciona el archivo</label>
+        <input type="file" name="FilesAttached" multiple class="form-control" required/>
+    </div>
+
+    <button type="submit" class="btn btn-success">Subir Documentos</button>
+</form>

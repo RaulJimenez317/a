@@ -1,0 +1,66 @@
+﻿.home-admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* un poco más alto */
+}
+
+.home-admin-card {
+    background: url('/images/fondoHome.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+    padding: 5rem 5rem; /* más espacio interno */
+    width: 100%;
+    max-width: 2600px; /* más ancho */
+    min-height: 700px; /* fuerza altura más grande */
+    text-align: center;
+}
+
+    .home-admin-card h3 {
+        font-size: 2.2rem; /* más grande */
+    }
+
+    .home-admin-card p {
+        font-size: 1.3rem;
+    }
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem; /* más espacio entre tarjetas */
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.option-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    text-decoration: none;
+    color: #333;
+    width: 340px; /* más grande */
+    height: 370px; /* cuadradas y grandes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .option-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 14px 24px rgba(0,0,0,0.25);
+    }
+
+    .option-card .icon {
+        font-size: 4rem; /* iconos más grandes */
+        color: #6c9d8b;
+        margin-bottom: 1.5rem;
+    }
+
+    .option-card p {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }

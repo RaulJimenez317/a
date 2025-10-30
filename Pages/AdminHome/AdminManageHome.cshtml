@@ -1,0 +1,42 @@
+﻿@page
+@model Proyectamos.Pages.AdminHome.AdminManageHomeModel
+@{
+    ViewData["Title"] = "Administrar";
+    Layout = "_Layout"; // tu layout que ya incluye header y footer
+
+
+
+}
+
+
+
+<div class="home-admin-container">
+    <div class="home-admin-card">
+        <div class="text-center mb-4">
+            <h3 class="fw-bold">Administración</h3>
+            <p class="fw-semibold">Seleccione una opción</p>
+        </div>
+
+        <div class="options-container">
+            <!-- Perfil de usuarios -->
+            <a asp-page="/AdminHome/AdminManageUser" class="option-card">
+                <div class="icon">
+                    <i class="bi bi-person-check"></i>
+                </div>
+                <p>Perfil de usuarios</p>
+            </a>
+
+            <!-- Estadísticas de proyectos -->
+            <a asp-page="/AdminHome/AdminManageProyects" class="option-card">
+                <div class="icon">
+                    <i class="bi bi-bar-chart"></i>
+                </div>
+                <p>Estadísticas de proyectos</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Home_Admin_User.css" />
+}

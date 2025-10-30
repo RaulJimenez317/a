@@ -1,0 +1,66 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<link rel="stylesheet" href="~/css/index.css" />
+
+<br />
+
+<div class="index-container">
+
+    <div class="index-header">
+        <h1>ProyecTamos</h1>
+        <p>
+            Comparte tus ideas, publica tus proyectos y explora lo que otros creadores están construyendo.
+            ¡Conéctate con la comunidad y haz crecer tus ideas!
+        </p>
+    </div>
+
+
+    <div class="highlighted-projects">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="carousel-container">
+            <button class="arrow-btn left" onclick="moveSlide(-1)">←</button>
+
+            <div class="carousel-wrapper">
+                <div class="projects-slider" id="projectsSlider">
+                    @foreach (var project in Model.HighlightedProjects)
+                    {
+                        <div class="project-card">
+                            <h3>@project.Name</h3>
+                            <p>
+                                @(project.Description != null && project.Description.Length > 20
+                                                            ? project.Description.Substring(0, 20) + "..."
+                                                            : project.Description)
+                            </p>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <button class="arrow-btn right" onclick="moveSlide(1)">→</button>
+        </div>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const slider = document.getElementById("projectsSlider");
+        const cardWidth = 320 + 25;
+        const visibleCards = 3;
+
+        function moveSlide(direction) {
+            const totalCards = slider.children.length;
+            const maxIndex = totalCards - visibleCards;
+
+            currentIndex += direction;
+            if (currentIndex < 0) currentIndex = 0;
+            if (currentIndex > maxIndex) currentIndex = maxIndex;
+
+            slider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        }
+    </script>
+
+
+</div>

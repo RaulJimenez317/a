@@ -1,0 +1,109 @@
+﻿body {
+    background-color: #faebd7;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.form-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 110px;
+    background: #fef4e8;
+    border: 1px solid #cfd8d3;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: initial;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+textarea {
+    min-height: 200px;
+}
+
+/* --- Selector de archivo con estilo de botón --- */
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-label {
+    display: inline-block;
+    background: #6b8c7a;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .custom-file-label:hover {
+        background: #557b67;
+    }
+
+/* --- Fila de inputs --- */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+    .form-row div {
+        flex: 1;
+    }
+
+/* --- Botones más anchos y centrados --- */
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 45px;
+}
+
+.btn-cancel, .btn-create {
+    min-width: 250px;
+    text-align: center;
+    padding: 9px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-cancel {
+    background: #9b7a78;
+    color: white;
+}
+
+.btn-create {
+    background: #6b8c7a;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background: #856665;
+}
+
+.btn-create:hover {
+    background: #557b67;
+}
+
+
+

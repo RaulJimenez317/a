@@ -1,0 +1,127 @@
+﻿@page
+@model Proyectamos.Pages.AdminHome.AdminManageProyectsModel
+@using System.Text.Json
+@{
+    ViewData["Title"] = "Administrar Categorías";
+}
+
+<link rel="stylesheet" href="~/css/AdminManageProyects.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="container mt-4">
+    <h2>Administración de Categorías</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="text-end mb-3">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
+            + Añadir Categoría
+        </button>
+    </div>
+
+    <!-- Tabla de categorías -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Proyectos Asignados</th>
+                <th>Estado</th>
+                <th>Fecha de Registro</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                var projectCount = Model.Projects.Count(p => p.CategoryID == category.Id);
+                <tr class="@(category.Status == 0 ? "table-secondary" : "")">
+                    <td>@category.Name</td>
+                    <td>@projectCount</td>
+                    <td>
+                        @if (category.Status == 1)
+                        {
+                            <span class="badge bg-success">Activo</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Inactivo</span>
+                        }
+                    </td>
+                    <td>@category.RegisterDate.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <form method="post" asp-page-handler="ToggleCategoryStatus">
+                            <input type="hidden" name="categoryId" value="@category.Id" />
+                            <button type="submit" class="btn btn-sm @(category.Status == 1 ? "btn-warning" : "btn-success")">
+                                @(category.Status == 1 ? "Desactivar" : "Activar")
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-5">
+        <h4>Distribución de proyectos por categoría</h4>
+        <canvas id="categoryChart" width="400" height="200"></canvas>
+    </div>
+</div>
+
+<!-- Modal para añadir categoría -->
+<div class="modal fade" id="addCategoryModal" tabindex="-1" aria-labelledby="addCategoryLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-page-handler="AddCategory">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addCategoryLabel">Añadir Nueva Categoría</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label>Nombre de la categoría</label>
+                        <input type="text" name="CategoryName" class="form-control" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const labels = @Html.Raw(JsonSerializer.Serialize(Model.Categories.Select(c => c.Name)));
+    const data = @Html.Raw(JsonSerializer.Serialize(
+                Model.Categories.Select(c => Model.Projects.Count(p => p.CategoryID == c.Id))
+        ));
+
+    const ctx = document.getElementById('categoryChart').getContext('2d');
+    const categoryChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Número de proyectos',
+                data: data,
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true, precision: 0 }
+            }
+        }
+    });
+</script>

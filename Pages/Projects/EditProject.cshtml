@@ -1,0 +1,22 @@
+﻿@page
+@model Proyectamos.Pages.Projects.EditProjectModel
+@{
+
+}
+<form method="post" asp-page-handler="EditProject">
+    <input type="hidden" name="id" value="@Model.Project.Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Nombre del proyecto</label>
+        <input type="text" name="name" class="form-control" value="@Model.Project.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <textarea name="description" class="form-control" rows="5">@Model.Project.Description</textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar cambios</button>
+</form>
+
+<a asp-page="/Projects/Project" asp-route-id="@Model.Project.Id" class="btn btn-secondary">Cancelar</a>

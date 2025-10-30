@@ -1,0 +1,126 @@
+﻿@page
+@model Proyectamos.Pages.Projects.LookForProjectModel
+@{
+    if (HttpContext.Session.GetInt32("UserId") == null)
+    {
+        RedirectToPage("/Register/LoginRegister");
+    }
+    int? userIdSession = HttpContext.Session.GetInt32("UserId");
+}
+<link rel="stylesheet" href="~/css/lookforproject.css" asp-append-version="true"/>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success text-center" style="margin-top:10px;">
+        @TempData["Message"]
+    </div>
+}
+
+
+<div class="projects-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h3 class="sidebar-title">Buscar Proyectos</h3>
+        <form method="get">
+            <input type="text" name="SearchTerm" value="@Model.SearchTerm" class="search-input" placeholder="Buscar proyectos..." />
+        </form>
+
+        <div class="project-list">
+            @foreach (var project in Model.Projects)
+            {
+                <div class="project-item">
+                    <div class="project-info"
+                         onclick="showPreview('@project.Name', '@project.Description', @project.Id, @project.UserID)">
+                        <span class="project-category">@project.Category?.Name</span>
+                        <a asp-page="/Projects/Project" asp-route-id="@project.Id" class="project-title text-dark">
+                            @project.Name
+                        </a>
+                    </div>
+                    <button class="btn-view"
+                            onclick="showPreview('@project.Name', '@project.Description', @project.Id, @project.UserID)">
+                        Ver
+                    </button>
+                </div>
+            }
+        </div>
+    </aside>
+
+    <!-- Contenedor derecho: vista previa + botón -->
+    <section style="flex: 1; display: flex; flex-direction: column; gap: 15px;">
+        <div class="preview-area">
+            <p class="placeholder-text">Selecciona un proyecto para ver los detalles aquí.</p>
+        </div>
+
+        <div style="text-align: center;" id="joinButtonContainer">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#joinProjectModal">
+                Solicitar unirse al proyecto
+            </button>
+        </div>
+    </section>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="joinProjectModal" tabindex="-1" aria-labelledby="joinProjectModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="joinProjectModalLabel">Unirse al proyecto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                ¿Quieres solicitar unirte al equipo del proyecto <strong id="modalProjectName"></strong>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <form method="post" asp-page-handler="SolicitarUnion">
+                    <input type="hidden" id="idProyectoModal" name="idProyecto" value="" />
+                    <button type="submit" class="btn btn-success">Sí, solicitar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    const userProjects = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.ProjectsUserBelongsTo));
+        const userIdSession = @HttpContext.Session.GetInt32("UserId");
+
+    function showPreview(name, description, id, ownerId) {
+        const preview = document.querySelector('.preview-area');
+
+
+        preview.innerHTML = '';
+
+
+        const title = document.createElement('h4');
+        const link = document.createElement('a');
+        link.href = `/Projects/Project?id=${id}`;
+        link.className = 'text-decoration-none text-dark';
+        link.textContent = name;
+        title.appendChild(link);
+        preview.appendChild(title);
+
+        const p = document.createElement('p');
+        const lines = description.split(/\r\n|\r|\n/); 
+        lines.forEach((line, index) => {
+            p.appendChild(document.createTextNode(line));
+            if (index < lines.length - 1) {
+                p.appendChild(document.createElement('br'));
+            }
+        });
+        preview.appendChild(p);
+
+
+        document.getElementById('modalProjectName').textContent = name;
+        document.getElementById('idProyectoModal').value = id;
+
+
+        const btnContainer = document.getElementById('joinButtonContainer');
+        if (userProjects.includes(id) || ownerId === userIdSession) {
+            btnContainer.style.display = 'none';
+        } else {
+            btnContainer.style.display = 'block';
+        }
+    }
+</script>
