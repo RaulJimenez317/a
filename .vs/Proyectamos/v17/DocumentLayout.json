@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\projects\\project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\register\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -67,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\profile\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:pages\\createproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{016EFFB0-6D0F-4C94-AFC2-1D5029EB1224}|Proyectamos.csproj|c:\\users\\pcraul\\desktop\\proyectosistemas\\proyectohosteo\\proyectamos\\wwwroot\\css\\projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -286,45 +286,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Project.cshtml",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Projects\\Project.cshtml",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
-              "RelativeToolTip": "Pages\\Projects\\Project.cshtml",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAAAOQAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T22:40:48.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-08T02:23:37.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditProject.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
-              "RelativeToolTip": "Pages\\Projects\\EditProject.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:40:12.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Project.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Projects\\Project.cshtml.cs",
@@ -336,46 +298,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Profile\\Index.cshtml",
               "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml",
               "RelativeToolTip": "Pages\\Profile\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T02:49:48.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
               "RelativeDocumentMoniker": "Pages\\Register\\LoginRegister.cshtml",
               "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\LoginRegister.cshtml",
               "RelativeToolTip": "Pages\\Register\\LoginRegister.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-12T22:38:04.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml",
               "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml",
               "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml",
               "RelativeToolTip": "Pages\\Register\\Register.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwC8AAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwC8AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-12T22:36:32.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Register\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Register\\Register.cshtml.cs",
@@ -388,7 +350,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T23:58:04.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:49:42.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cshtml",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projects\\Project.cshtml",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\Project.cshtml",
+              "RelativeToolTip": "Pages\\Projects\\Project.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAOcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T22:40:48.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditProject.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml.cs",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml.cs",
+              "RelativeToolTip": "Pages\\Projects\\EditProject.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T22:40:12.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-08T02:23:37.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EditProject.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\EditProject.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\EditProject.cshtml",
@@ -400,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LookForProject.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Projects\\LookForProject.cshtml",
               "RelativeDocumentMoniker": "Pages\\Projects\\LookForProject.cshtml",
@@ -412,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -424,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "profile.css",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\profile.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\profile.css",
@@ -436,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -448,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\Profile\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Profile\\Index.cshtml.cs",
@@ -460,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Profile.js",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\js\\Profile.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\Profile.js",
@@ -472,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LookForProject.css",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\LookForProject.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\LookForProject.css",
@@ -484,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "notifications.css",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\wwwroot\\css\\notifications.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\notifications.css",
@@ -496,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateProject.cshtml",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Pages\\CreateProject\\CreateProject.cshtml",
               "RelativeDocumentMoniker": "Pages\\CreateProject\\CreateProject.cshtml",
@@ -508,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -541,30 +566,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-13T00:07:16.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "Models\\Profile.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Profile.cs",
-              "RelativeToolTip": "Models\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T02:49:42.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "Models\\Project.cs",
-              "ToolTip": "C:\\Users\\PcRaul\\Desktop\\ProyectoSistemas\\ProyectoHosteo\\proyectamos\\Models\\Project.cs",
-              "RelativeToolTip": "Models\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T23:58:04.737Z"
             },
             {
               "$type": "Document",
