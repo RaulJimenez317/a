@@ -266,7 +266,7 @@ else
                                 <small class="text-muted">@notif.Date.ToString("dd/MM/yyyy HH:mm")</small>
 
                                 <!--Solo mostrar botones si es una solicitud de union -->
-                                @if (notif.Type == "Solicitud de unión")
+                                @if (notif.Type == "Solicitud de unión" || notif.Type == "Solicitud de uni�n")
                                 {
                                     <div class="mt-2 d-flex gap-2">
                                         <form method="post" asp-page-handler="AcceptNotification">

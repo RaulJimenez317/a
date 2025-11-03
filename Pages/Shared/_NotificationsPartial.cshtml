@@ -43,7 +43,7 @@
                         </div>
                     </div>
 
-                    @if (n.Type == "Solicitud de unión" && n.FromUser != null)
+                    @if ((n.Type == "Solicitud de unión" || n.Type == "Solicitud de uni�n") && n.FromUser != null)
                     {
                         <a class="btn btn-sm btn-primary mt-2 w-100" href="/Profiles/@n.UserID">
                             Ver notificacion
