@@ -12,40 +12,32 @@
     <div class="alert alert-success mt-2">@TempData["Message"]</div>
 }
 
+<div class="admin-user-container">
 
-<div class="admin-user-container d-flex" style="height:100vh; gap:20px; padding:20px;">
-
-
-    <div class="user-list" style="width:25%; overflow-y:auto;">
+    <div class="user-list">
         <form method="get">
             <input type="text" name="search" placeholder="Buscar usuario..."
                    class="search-box" value="@Request.Query["search"]" />
             <button type="submit" hidden class="btn-search">Buscar</button>
         </form>
 
-
         @foreach (var user in Model.Users)
         {
             var profileImage = user.Profile?.Image ?? "/images/default-user.png";
             string fullName = $"{user.Name} {user.LastName}";
 
-            <div class="user-card p-2 mb-2 d-flex align-items-center"
+            <div class="user-card @(user.Status == 0 ? "inactive" : "")"
                  data-name="@Html.Raw((user.Name + " " + user.LastName).ToLower())"
-                 data-user-id="@user.Id"
-                 style="cursor:pointer; border:1px solid #ddd; border-radius:12px;">
-
-
+                 data-user-id="@user.Id">
 
                 @if (!string.IsNullOrEmpty(user.Profile?.Image))
                 {
                     <img src="@user.Profile.Image" alt="Foto"
-                         class="user-list-img"
-                         style="width:45px; height:45px; border-radius:50%; object-fit:cover; margin-right:10px;">
+                         class="user-list-img">
                 }
                 else
                 {
-                    <i class="bi bi-person-circle text-secondary"
-                       style="font-size: 2.5rem; margin-right:10px;"></i>
+                    <i class="bi bi-person-circle text-secondary user-list-img-placeholder" ></i>
                 }
 
                 <div>
@@ -62,41 +54,35 @@
         }
     </div>
 
-    <div class="profile-container flex-grow-1">
+    <div class="profile-container">
 
         @if (Model.SelectedUser != null)
         {
-            <div class="profile-header d-flex">
+            <div class="profile-header">
+
                 <div class="profile-photo">
                     @if (string.IsNullOrEmpty(Model.SelectedProfile?.Image))
                     {
-                        <i class="bi bi-person-circle" style="font-size: 120px; color: #6c757d;"></i>
+                        <i class="bi bi-person-circle profile-placeholder" style="font-size: 4rem;"></i>
                     }
                     else
                     {
                         <img src="@Model.SelectedProfile.Image"
-                             alt="Foto de perfil" id="profilePreview"
-                             style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                             alt="Foto de perfil" id="profilePreview">
                     }
-
                 </div>
 
-                <div class="profile-info" style="margin-left:20px;">
-                    @if (Model.SelectedUser.Role == "admin")
-                    {
-                        <h2>@Model.SelectedUser.Name @Model.SelectedUser.LastName (Administrador)</h2>
-                    }
-                    else
-                    {
-                        <h2>@Model.SelectedUser.Name @Model.SelectedUser.LastName (Usuario)</h2>
-                    }
-
+                <div class="profile-info">
+                    <h2>
+                        @Model.SelectedUser.Name @Model.SelectedUser.LastName
+                        (@(Model.SelectedUser.Role == "admin" ? "Administrador" : "Usuario"))
+                    </h2>
                     <p class="username">@Model.SelectedUser.Email</p>
                 </div>
 
                 @if (userIdSession != Model.SelectedUser.Id)
                 {
-                    <div class="dropdown" style="margin-left:auto;">
+                    <div class="dropdown">
                         <button class="dropbtn">⋮</button>
                         <div class="dropdown-content">
                             <form method="post" asp-page-handler="ChangeRole">
@@ -120,12 +106,9 @@
                         </div>
                     </div>
                 }
-
-
-
             </div>
 
-            <div class="profile-stats d-flex gap-4 mt-3">
+            <div class="profile-stats">
                 <div class="stat">
                     <span class="stat-number">@Model.SubscribedProjects.Count()</span>
                     <span class="stat-label">Proyectos Inscritos</span>
@@ -136,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="profile-tabs mt-4">
+            <div class="profile-tabs">
                 <button class="tab-button active" onclick="showSection('about', event)">Sobre Mí</button>
                 <button class="tab-button" onclick="showSection('inscritos', event)">Proyectos Inscritos</button>
                 <button class="tab-button" onclick="showSection('creados', event)">Proyectos Creados</button>
@@ -203,10 +186,11 @@
         {
             <p>Seleccione un usuario para ver su perfil</p>
         }
+
     </div>
 </div>
 
-
+<!-- MODAL -->
 <div id="confirmDeleteModal" class="modal-overlay hidden">
     <div class="modal-content modal-delete">
         <h3 class="modal-title">Confirmar Eliminación</h3>

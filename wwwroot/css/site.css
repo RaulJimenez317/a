@@ -1,5 +1,10 @@
+/* -------------------------
+   Global & base adjustments
+   ------------------------- */
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 html, body {
@@ -12,27 +17,29 @@ html, body {
     }
 }
 
+body {
+    margin: 0 0 60px 0;
+    background-color: #FFF2E2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+    /* Make the main container expand to full height minus header/footer */
+    body > .container-fluid {
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 140px); /* tweak if header/footer change */
+    }
+
+/* Focus outlines */
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-    background-color: #FFF2E2;
-}
-
-    body > .container {
-        display: flex;
-        flex-direction: column;
-        min-height: calc(100vh - 80px);
-    }
-
-/* Header */
+/* -------------------------
+   Header
+   ------------------------- */
 .custom-header {
     background: linear-gradient(135deg, #a4c3b2, #cce3dc);
     padding: 14px 28px;
@@ -44,85 +51,95 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    transition: background 0.3s ease, box-shadow 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.2s ease;
 }
 
-    /* Links de navegación */
-    .custom-header .nav-link {
-        color: #2f2f2f !important;
-        font-weight: 600;
-        margin-left: 20px;
-        position: relative;
-        transition: color 0.3s, transform 0.2s;
-        letter-spacing: 0.5px;
+/* ensure toggler icon is visible on custom backgrounds */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(47,47,47,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Links */
+.custom-header .nav-link {
+    color: #2f2f2f !important;
+    font-weight: 600;
+    margin-left: 20px;
+    position: relative;
+    transition: color 0.25s, transform 0.15s;
+    letter-spacing: 0.5px;
+}
+
+    .custom-header .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #2f4f4f;
+        bottom: -5px;
+        left: 0;
+        transition: width 0.25s ease;
+        border-radius: 2px;
     }
 
-        .custom-header .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            background-color: #2f4f4f;
-            bottom: -5px;
-            left: 0;
-            transition: width 0.3s ease;
-            border-radius: 2px;
-        }
-
-        .custom-header .nav-link:hover::after {
-            width: 100%;
-        }
-
-        .custom-header .nav-link:hover {
-            color: #000 !important;
-            transform: translateY(-2px);
-        }
-
-    /* Botón integrado */
-    .custom-header .btn {
-        border-radius: 14px;
-        background: linear-gradient(135deg, #a4c3b2, #cce3dc);
-        border: 2px solid rgba(70, 64, 64, 0.2);
-        color: #2f2f2f;
-        padding: 8px 18px;
-        font-weight: 600;
-        transition: all 0.3s ease;
+    .custom-header .nav-link:hover::after {
+        width: 100%;
     }
 
-        .custom-header .btn:hover {
-            background: linear-gradient(135deg, #bcd7c5, #e6f0ec);
-            color: #000;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-        }
-
-    /* Iconos */
-    .custom-header div a i {
-        color: #2f2f2f;
-        font-size: 20px;
-        transition: color 0.3s, transform 0.2s;
-        margin-left: 10px;
+    .custom-header .nav-link:hover {
+        color: #000 !important;
+        transform: translateY(-2px);
     }
 
-    .custom-header div a:hover i {
+/* Integrated button look */
+.custom-header .btn {
+    border-radius: 14px;
+    background: linear-gradient(135deg, #a4c3b2, #cce3dc);
+    border: 2px solid rgba(70, 64, 64, 0.12);
+    color: #2f2f2f;
+    padding: 8px 18px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+    .custom-header .btn:hover {
+        background: linear-gradient(135deg, #bcd7c5, #e6f0ec);
         color: #000;
-        transform: scale(1.15) rotate(6deg);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.12);
     }
 
-/* Efecto al hacer scroll */
+/* Icons inside header */
+.custom-header .me-2 i,
+.custom-header div a i {
+    color: #2f2f2f;
+    font-size: 20px;
+    transition: color 0.25s, transform 0.2s;
+    margin-left: 10px;
+}
+
+/* on hover */
+.custom-header div a:hover i {
+    color: #000;
+    transform: scale(1.12) rotate(6deg);
+}
+
+/* scrolled state */
 body.scrolled .custom-header {
     background: linear-gradient(135deg, #91b29f, #bcd7c5);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    padding: 10px 20px;
 }
 
-
-
-/* Main */
+/* -------------------------
+   Main
+   ------------------------- */
 main[role="main"] {
     flex: 1;
 }
 
-/* Footer */
+/* -------------------------
+   Footer
+   ------------------------- */
 .custom-footer {
     background: linear-gradient(135deg, #a4c3b2, #cce3dc);
     color: #2f2f2f;
@@ -130,8 +147,6 @@ main[role="main"] {
     font-size: 15px;
     text-align: center;
     border-top: 2px solid rgba(0,0,0,0.1);
-    position: relative;
-    bottom: 0;
     width: 100%;
     margin-top: auto;
     font-family: 'Open Sans', sans-serif;
@@ -148,47 +163,30 @@ main[role="main"] {
         text-decoration: none;
         margin: 0 10px;
         font-weight: 500;
-        transition: color 0.3s, transform 0.2s;
+        transition: color 0.25s, transform 0.15s;
     }
 
         .custom-footer a:hover {
             color: #000;
-            text-decoration: none;
             transform: translateY(-2px);
         }
 
-        /* Íconos */
         .custom-footer a i {
             font-size: 18px;
             margin-right: 6px;
-            transition: color 0.3s, transform 0.2s;
+            transition: color 0.25s, transform 0.15s;
         }
 
-        .custom-footer a:hover i {
-            color: #000;
-            transform: scale(1.1);
-        }
-
-
-.carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+/* Footer layout helpers */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    min-width: 220px;
+    text-align: center;
 }
 
-.carousel-wrapper {
-    overflow: hidden;
-    width: calc(320px * 3 + 25px * 2); /* 3 tarjetas + gaps */
-}
-
-.projects-slider {
-    display: flex;
-    gap: 25px;
-    transition: transform 0.4s ease;
-}
-
-
+/* -------------------------
+   Dropdown & Navbar tweaks
+   ------------------------- */
 .navbar .dropdown-menu {
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -207,7 +205,6 @@ main[role="main"] {
             color: #007bff;
         }
 
-
 .navbar .dropdown-toggle.btn {
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -216,5 +213,108 @@ main[role="main"] {
 
     .navbar .dropdown-toggle.btn:hover {
         background-color: #f8f9fa;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
+
+/* -------------------------
+   Carousel / Projects slider
+   ------------------------- */
+/* container for arrows + slider */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1100px; /* controls maximum visible area */
+}
+
+/* slider flex that adapts */
+.projects-slider {
+    display: flex;
+    gap: 25px;
+    transition: transform 0.4s ease;
+    will-change: transform;
+}
+
+/* project card base - keep your visual */
+.project-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.12);
+    width: 320px;
+    min-width: 260px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.25s;
+    border: 2px solid #e0e6e4;
+}
+
+    .project-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.18);
+        border-color: #9fc5bb;
+    }
+
+/* arrow button (keeps style) */
+.arrow-btn {
+    background-color: #a8cfc6;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: background 0.25s, transform 0.15s;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.12);
+}
+
+    .arrow-btn:hover {
+        background-color: #7daea1;
+        transform: scale(1.06);
+    }
+
+/* -------------------------
+   RESPONSIVE RULES
+   ------------------------- */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background: linear-gradient(135deg, #f7fbfa, #ffffff);
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+
+        .navbar-nav .nav-item {
+            margin: 8px 0;
+        }
+
+    .custom-header .btn {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        float: none;
+        box-shadow: none;
+        background: transparent;
+        border: none;
+    }
+
+    .dropdown-item {
+        background: #fff;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+}

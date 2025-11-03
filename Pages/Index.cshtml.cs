@@ -26,13 +26,14 @@ namespace Proyectamos.Pages
         {
             HighlightedProjects = _context.Projects
                 .Include(p => p.Category)
-                .Where(p => p.Status == 1)
-                .OrderByDescending(p => p.Id)
-                .Take(5)
+                .Where(p => p.Status == 1) 
+                .OrderByDescending(p => p.Id) 
+                .Take(3)                     
                 .AsNoTracking()
                 .ToList();
 
             _logger.LogInformation("Se cargaron {count} proyectos destacados", HighlightedProjects.Count);
         }
+
     }
 }

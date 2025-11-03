@@ -3,9 +3,10 @@
     gap: 25px;
     margin-top: 20px;
     font-family: 'Inter', sans-serif;
+    flex-wrap: wrap; 
 }
 
-/* Sidebar */
+
 .sidebar {
     width: 280px;
     background-color: #a4c3b2;
@@ -13,6 +14,7 @@
     border-radius: 15px;
     color: #464040;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-shrink: 0;
 }
 
 /* Título */
@@ -22,7 +24,7 @@
     margin-bottom: 15px;
 }
 
-/* Buscador */
+
 .search-input {
     width: 100%;
     padding: 10px;
@@ -37,7 +39,7 @@
         border-color: #464040;
     }
 
-/* Lista de proyectos */
+
 .project-list {
     display: flex;
     flex-direction: column;
@@ -52,7 +54,7 @@
     padding: 10px 14px;
     border-radius: 20px;
     border: 1px solid #91b29f;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
 }
 
     .project-item:hover {
@@ -61,7 +63,7 @@
         transform: translateY(-2px);
     }
 
-/* Títulos y categorías */
+
 .project-title {
     font-size: 15px;
     font-weight: 600;
@@ -80,7 +82,6 @@
 }
 
 
-/* Botón Ver */
 .btn-view {
     padding: 6px 16px;
     border: none;
@@ -99,15 +100,16 @@
         color: #fff;
     }
 
-/* Contenedor derecho */
+
 .preview-container {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    min-width: 300px; 
 }
 
-/* Vista previa */
+
 .preview-area {
     flex: 1;
     width: 100%;
@@ -125,7 +127,7 @@
 }
 
 .preview-area p {
-    white-space: normal; /* importante */
+    white-space: normal;
     word-break: break-word;
 }
 
@@ -138,7 +140,6 @@
     font-style: italic;
 }
 
-/* Botón debajo de la vista previa */
 .text-center .btn-success {
     width: 100%;
     padding: 10px 0;
@@ -152,4 +153,55 @@
         color: #fff;
     }
 
+/* ------------------------------------------- */
 
+@media (max-width: 992px) {
+    .projects-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .preview-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        gap: 15px;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+
+    .search-input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .project-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 10px;
+    }
+
+    .btn-view {
+        width: 100%;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .preview-area {
+        padding: 15px;
+    }
+
+    .text-center .btn-success {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+}

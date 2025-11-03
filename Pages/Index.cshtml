@@ -47,22 +47,36 @@
     </div>
 
     <script>
-        let currentIndex = 0;
         const slider = document.getElementById("projectsSlider");
-        const cardWidth = 320 + 25;
-        const visibleCards = 3;
+        let currentIndex = 0;
 
-        function moveSlide(direction) {
-            const totalCards = slider.children.length;
-            const maxIndex = totalCards - visibleCards;
+        function updateSlider() {
+            const sliderWidth = slider.offsetWidth;
+            const cards = slider.children;
+            const cardWidth = cards[0]?.offsetWidth + 25 || 0; 
+            const visibleCards = Math.floor(sliderWidth / cardWidth); 
 
-            currentIndex += direction;
+            const totalCards = cards.length;
+            const maxIndex = Math.max(totalCards - visibleCards, 0);
+
+
             if (currentIndex < 0) currentIndex = 0;
             if (currentIndex > maxIndex) currentIndex = maxIndex;
 
             slider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
         }
+
+        function moveSlide(direction) {
+            currentIndex += direction;
+            updateSlider();
+        }
+
+
+        window.addEventListener("resize", updateSlider);
+
+        window.addEventListener("load", updateSlider);
     </script>
+
 
 
 </div>

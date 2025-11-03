@@ -3,7 +3,7 @@
 ======================= */
 .admin-user-container {
     display: flex;
-    height: 100vh;
+    flex-direction: column; /* mobile-first */
     gap: 20px;
     padding: 20px;
     background-color: #e4efe9;
@@ -18,7 +18,8 @@
    LISTA DE USUARIOS
 ======================= */
 .user-list {
-    width: 25%;
+    width: 100%;
+    max-height: 300px;
     background: #f0f7f3;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
@@ -26,15 +27,15 @@
     overflow-y: auto;
 }
 
-.user-list .search-box {
-    width: 100%;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    border-radius: 12px;
-    border: 1px solid #91b29f;
-    font-size: 1rem;
-    background-color: #fff;
-}
+    .user-list .search-box {
+        width: 100%;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        border-radius: 12px;
+        border: 1px solid #91b29f;
+        font-size: 1rem;
+        background-color: #fff;
+    }
 
 .user-card {
     display: flex;
@@ -48,14 +49,14 @@
     border: 1px solid transparent;
 }
 
-.user-card:hover {
-    background-color: #d0e8df;
-    border-color: #91b29f;
-}
+    .user-card:hover {
+        background-color: #d0e8df;
+        border-color: #91b29f;
+    }
 
-.user-card.inactive {
-    opacity: 0.4;
-}
+    .user-card.inactive {
+        opacity: 0.4;
+    }
 
 .user-list-img {
     width: 50px;
@@ -72,27 +73,27 @@
 }
 
 /* =======================
-   CONTENEDOR DE PERFIL
+   PERFIL
 ======================= */
 .profile-container {
-    flex-grow: 1;
-    max-width: 900px;
-    margin: 40px auto;
+    width: 100%;
     background: #e4efe9;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    padding: 30px 40px;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 .profile-header {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 25px;
+    align-items: center;
 }
 
 .profile-photo img {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #91b29f;
@@ -102,7 +103,7 @@
 .profile-info h2 {
     margin: 0;
     color: #464040;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .username {
@@ -110,6 +111,9 @@
     font-size: 0.95rem;
 }
 
+/* =======================
+   DROPDOWN
+======================= */
 .dropdown {
     position: relative;
 }
@@ -167,8 +171,7 @@
 /* =======================
    BOTONES
 ======================= */
-.btn-edit,
-.btn-save {
+.btn-edit, .btn-save {
     background-color: #91b29f;
     border: none;
     padding: 8px 18px;
@@ -179,10 +182,9 @@
     transition: 0.3s;
 }
 
-.btn-edit:hover,
-.btn-save:hover {
-    background-color: #7fa68d;
-}
+    .btn-edit:hover, .btn-save:hover {
+        background-color: #7fa68d;
+    }
 
 .btn-cancel {
     background-color: #f44336;
@@ -195,9 +197,9 @@
     transition: 0.3s;
 }
 
-.btn-cancel:hover {
-    background-color: #d73830;
-}
+    .btn-cancel:hover {
+        background-color: #d73830;
+    }
 
 /* =======================
    ESTADÍSTICAS
@@ -207,6 +209,7 @@
     justify-content: center;
     gap: 30px;
     margin: 25px 0;
+    flex-wrap: wrap;
 }
 
 .stat {
@@ -236,6 +239,7 @@
     justify-content: center;
     gap: 15px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .tab-button {
@@ -248,19 +252,19 @@
     transition: 0.3s;
 }
 
-.tab-button.active {
-    background-color: #91b29f;
-    color: #fff;
-}
+    .tab-button.active {
+        background-color: #91b29f;
+        color: #fff;
+    }
 
 .tab-content {
     display: none;
     margin-top: 20px;
 }
 
-.tab-content.active {
-    display: block;
-}
+    .tab-content.active {
+        display: block;
+    }
 
 /* =======================
    SOBRE MI Y LINKS
@@ -272,39 +276,40 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .about-text {
-    flex: 2;
+    flex: 2 1 300px;
 }
 
 .links {
-    flex: 1;
+    flex: 1 1 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.links a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px 12px;
-    border-radius: 20px;
-    background-color: #91b29f;
-    font-weight: bold;
-    transition: 0.3s;
-}
+    .links a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 20px;
+        background-color: #91b29f;
+        font-weight: bold;
+        transition: 0.3s;
+    }
 
-.links a:hover {
-    background-color: #7fa68d;
-    color: #fff;
-}
+        .links a:hover {
+            background-color: #7fa68d;
+            color: #fff;
+        }
 
-.links a i {
-    margin-right: 8px;
-}
+        .links a i {
+            margin-right: 8px;
+        }
 
 /* =======================
    PROYECTOS
@@ -313,45 +318,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
     gap: 20px;
-}
-
-.project-card {
-    background-color: #a4c3b2;
-    padding: 18px;
-    border-radius: 20px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
-    position: relative;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.project-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-}
-
-.project-card h4 {
-    font-size: 16px;
-    font-weight: 600;
-    color: #464040;
-}
-
-.project-card p {
-    font-size: 14px;
-    color: #5f5f5f;
-    margin-top: 5px;
-}
-
-.project-card i {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    cursor: pointer;
-    color: #464040;
-    transition: 0.3s;
-}
-
-.project-card i:hover {
-    color: #91b29f;
 }
 
 /* =======================
@@ -370,9 +336,9 @@
     z-index: 9999;
 }
 
-.modal-overlay.hidden {
-    display: none;
-}
+    .modal-overlay.hidden {
+        display: none;
+    }
 
 .modal-delete {
     background-color: #fff7eb;
@@ -390,37 +356,69 @@
     justify-content: space-between;
     gap: 10px;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
-.modal-buttons .btn {
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    transition: all 0.2s ease;
+    .modal-buttons .btn {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s ease;
+        flex: 1 1 45%;
+    }
+
+/* =======================
+   RESPONSIVIDAD
+======================= */
+@media (min-width: 768px) {
+    .admin-user-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .user-list {
+        flex: 0 0 30%;
+        max-height: 90vh;
+    }
+
+    .profile-container {
+        flex: 1;
+        max-width: 900px;
+        margin-left: 0;
+    }
 }
 
-.btn-cancel {
-    background-color: #ffd8b0;
-    color: #464040;
+@media (max-width: 480px) {
+    .profile-photo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-info h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .modal-buttons .btn {
+        flex: 1 1 100%;
+    }
 }
 
-.btn-cancel:hover {
-    background-color: #ffb27a;
+
+/* Icono de usuario cuando no hay foto */
+.user-list-img-placeholder {
+    width: 50px; 
+    height: 50px;
+    font-size: 50px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    color: #6c757d;
+    background-color: #f0f7f3; 
 }
 
-.btn-delete {
-    background-color: #ff6b6b;
-    color: #fff;
-}
-
-.btn-delete:hover {
-    background-color: #e65555;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
 
