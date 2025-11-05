@@ -138,7 +138,7 @@ namespace Proyectamos.Pages.Projects
                     {
                         File = "/uploads/" + uniqueName,
                         Type = extension,
-                        UserID = 1
+                        UserID = userIdSession.Value
                     });
                 }
             }
@@ -245,11 +245,13 @@ namespace Proyectamos.Pages.Projects
                 return RedirectToPage("/Projects/Project", new { id = idProyecto });
             }
 
- 
+            var utcNow = DateTime.UtcNow;
+            var boliviaTime = utcNow.AddHours(-4);
+
             var notificacion = new Notification
             {
                 Type = "Solicitud de unión",
-                Date = DateTime.Now,
+                Date = boliviaTime,
                 UserID = proyecto.UserID, 
                 FromUserID = userIdSession.Value,
                 ProjectID = proyecto.Id,

@@ -76,11 +76,14 @@ namespace Proyectamos.Pages.Projects
                 return RedirectToPage("/Projects/LookForProject");
             }
 
+            var utcNow = DateTime.UtcNow;
+            var boliviaTime = utcNow.AddHours(-4);
+
             // Crear la notificacion para el dueño del proyecto
             var notificacion = new Notification
             {
                 Type = "Solicitud de unión",
-                Date = DateTime.Now,
+                Date = boliviaTime,
                 UserID = proyecto.UserID,   // destinatario: el dueño del proyecto
                 FromUserID = userIdSession.Value,  // quien envía la solicitud
                 ProjectID = proyecto.Id,
