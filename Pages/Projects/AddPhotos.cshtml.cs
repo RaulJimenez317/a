@@ -38,6 +38,21 @@ namespace Proyectamos.Pages.Projects
                 return Page();
             }
 
+            if (Fotos != null)
+            {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                foreach (var foto in Fotos)
+                {
+                    var extension = Path.GetExtension(foto.FileName).ToLowerInvariant();
+                    if (!allowedExtensions.Contains(extension))
+                    {
+                        ModelState.AddModelError("Fotos", $"El archivo {foto.FileName} no es una imagen válida.");
+                        return Page();
+                    }
+
+                }
+            }
+
             string connString = _configuration.GetConnectionString("DefaultConnection");
 
 

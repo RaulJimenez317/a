@@ -65,6 +65,22 @@ namespace Proyectamos.Pages.CreateProject
                 return Page();
             }
 
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+
+            if (Proyecto.Fotos != null)
+            {
+                foreach (var foto in Proyecto.Fotos)
+                {
+                    var extension = Path.GetExtension(foto.FileName).ToLowerInvariant();
+                    if (!allowedExtensions.Contains(extension))
+                    {
+                        ModelState.AddModelError("Proyecto.Fotos", $"El archivo {foto.FileName} no es una imagen válida.");
+                        return Page();
+                    }
+
+                }
+            }
+
             string connString = _configuration.GetConnectionString("DefaultConnection");
             int projectId;
 
@@ -85,6 +101,7 @@ namespace Proyectamos.Pages.CreateProject
                     cmd.Parameters.AddWithValue("@categoryID", Proyecto.CategoriaID);
                     projectId = Convert.ToInt32(cmd.ExecuteScalar());
                 }
+
 
                 // Guardar fotos
                 if (Proyecto.Fotos != null && Proyecto.Fotos.Count > 0)
